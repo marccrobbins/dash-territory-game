@@ -330,12 +330,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebb7ea402442c804db2cd80d0c2b52dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputBuffer: 0.1
-  moveSpeed: 0.1
-  turnSpeed: 2
-  gravity: 0.075
-  groundedCheckDistance: 0.1
-  isGrounded: 0
+  moveSpeed: 6
+  jumpSpeed: 12
+  gravity: 20
 --- !u!143 &1679838034
 CharacterController:
   m_ObjectHideFlags: 0
