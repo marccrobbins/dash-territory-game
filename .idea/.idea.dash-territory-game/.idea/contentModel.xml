@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\marcr\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -6,13 +6,94 @@
     <e p="J:\marcr\Documents\Development\CrowsNestGames\dash-territory-game" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Scripts" t="Include">
-          <e p="PlayerController.cs" t="Include" />
+        <e p="_project" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Input" t="Include">
+              <e p="GameInput.cs" t="Include" />
+              <e p="InputManager.cs" t="Include" />
+              <e p="Tester.cs" t="Include" />
+            </e>
+            <e p="SimpleCameraController.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="Sirenix" t="Include">
+            <e p="Odin Inspector" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="AssemblyImportSettingsAutomation.cs" t="Include" />
+                  <e p="BuildAOTAutomation.cs" t="Include" />
+                  <e p="EnsureOdinInspectorDefine.cs" t="Include" />
+                  <e p="FixBrokenUnityObjectWrapperDrawer.cs" t="Include" />
+                  <e p="Sirenix.OdinInspector.CompatibilityLayer.Editor.asmdef" t="Include" />
+                  <e p="SyncListDrawer.cs" t="Include" />
+                  <e p="SyncVarAttributeDrawer.cs" t="Include" />
+                  <e p="Vector2IntMinMaxAttributeDrawer.cs" t="Include" />
+                  <e p="VectorIntDrawers.cs" t="Include" />
+                  <e p="VectorIntPropertyResolvers.cs" t="Include" />
+                </e>
+                <e p="SerializedNetworkBehaviour.cs" t="Include" />
+                <e p="Sirenix.OdinInspector.CompatibilityLayer.asmdef" t="Include" />
+                <e p="VectorIntFormatters.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Sisus" t="Include">
+          <e p="Attributes" t="Include">
+            <e p="HideComponentInInspectorAttribute.cs" t="Include" />
+            <e p="HideTransformInInspectorAttribute.cs" t="Include" />
+            <e p="Interfaces" t="Include">
+              <e p="IComponentModifiedCallbackReceiver.cs" t="Include" />
+            </e>
+            <e p="OnlyComponentAttribute.cs" t="Include" />
+            <e p="Sisus.Attributes.asmdef" t="Include" />
+          </e>
+          <e p="Hierarchy Folders" t="Include">
+            <e p="Code" t="Include">
+              <e p="Editor" t="Include">
+                <e p="CustomEditorUtility.cs" t="Include" />
+                <e p="DisallowHierarchyFolderPrefabs.cs" t="Include" />
+                <e p="FileUtility.cs" t="Include" />
+                <e p="HierarchyFolderBuildRemover.cs" t="Include" />
+                <e p="HierarchyFolderEditorTool.cs" t="Include" />
+                <e p="HierarchyFolderIconDrawer.cs" t="Include" />
+                <e p="HierarchyFolderMenuItems.cs" t="Include" />
+                <e p="HierarchyFolderScriptExecutionOrderApplier.cs" t="Include" />
+                <e p="HierarchyFolderSettingsProvider.cs" t="Include" />
+                <e p="HierarchyOrderUtility.cs" t="Include" />
+                <e p="HierarchyWindowUtility.cs" t="Include" />
+                <e p="PowerInspectorIntegration" t="Include">
+                  <e p="HierarchyFolderDrawerEnabler.cs" t="Include" />
+                </e>
+                <e p="ScriptExecutionOrderUtility.cs" t="Include" />
+                <e p="Sisus.HierarchyFolders.Editor.asmdef" t="Include" />
+                <e p="SortTransformsByHierarchyOrder.cs" t="Include" />
+              </e>
+              <e p="HierarchyFolder.cs" t="Include" />
+              <e p="HierarchyFolderExtensions.cs" t="Include" />
+              <e p="HierarchyFolderPreferences.cs" t="Include" />
+              <e p="HierarchyFolderUtility.cs" t="Include" />
+              <e p="Icon.cs" t="Include" />
+              <e p="PlayModeStripper.cs" t="Include" />
+              <e p="PlayModeStrippingMethod.cs" t="Include" />
+              <e p="PreferencesApplier.cs" t="Include" />
+              <e p="Sisus.HierarchyFolders.asmdef" t="Include" />
+              <e p="StrippingType.cs" t="Include" />
+              <e p="TestHierarchyFoldersRemovedFromBuild.cs" t="Include" />
+            </e>
+            <e p="Readme.txt" t="Include" />
+          </e>
         </e>
       </e>
       <e p="dash-territory-game.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
+      <e p="Sirenix.OdinInspector.CompatibilityLayer.csproj" t="IncludeRecursive" />
+      <e p="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj" t="IncludeRecursive" />
+      <e p="Sisus.Attributes.csproj" t="IncludeRecursive" />
+      <e p="Sisus.HierarchyFolders.csproj" t="IncludeRecursive" />
+      <e p="Sisus.HierarchyFolders.Editor.csproj" t="IncludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
   </component>
