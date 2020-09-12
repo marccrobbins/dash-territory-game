@@ -13,6 +13,10 @@
               <e p="InputManager.cs" t="Include" />
               <e p="Tester.cs" t="Include" />
             </e>
+            <e p="Player" t="Include">
+              <e p="Gravity.cs" t="Include" />
+              <e p="Movement.cs" t="Include" />
+            </e>
             <e p="SimpleCameraController.cs" t="Include" />
           </e>
         </e>

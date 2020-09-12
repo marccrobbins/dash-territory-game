@@ -240,7 +240,7 @@ namespace DashTerritory
                 {
                     ""name"": ""LeftJoystick"",
                     ""id"": ""f54d2e5b-2981-48a0-8eb9-6494290c726a"",
-                    ""path"": ""2DVector"",
+                    ""path"": ""2DVector(mode=2)"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
