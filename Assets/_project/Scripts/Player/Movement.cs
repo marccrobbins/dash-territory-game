@@ -1,4 +1,6 @@
 ﻿using System.Collections;
+using Framework.Pooling;
+using Framework.Pooling.Generated;
 using UnityEngine;
 
 namespace DashTerritory
@@ -92,6 +94,7 @@ namespace DashTerritory
         {
             if (isDashCooldown) return;
             
+            PoolManager.Instance.Spawn(PoolNames.DASHEFFECT, transform.position, transform.rotation, Vector3.one * 2, transform);
             rigidbody.AddForce(transform.forward * dashForce, ForceMode.Impulse);
             
             isDashCooldown = true;
@@ -130,7 +133,8 @@ namespace DashTerritory
             rigidbody.AddForce(Vector3.down * groundSmashForce, ForceMode.Impulse);
             
             yield return new WaitUntil(() => isGrounded);
-            
+
+            PoolManager.Instance.Spawn(PoolNames.BODYSLAMEFFECT, transform.position);
             Jump(jumpForce * 0.4f);
             
             isDoingGroundSmash = false;

@@ -4,8 +4,45 @@
     <e p="C:\Users\marcr\.Rider2019.2\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\marcr\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_dash-territory-game.-1353122775.00" t="ExcludeRecursive" />
     <e p="J:\marcr\Documents\Development\CrowsNestGames\dash-territory-game" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="_framework" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="GameManager" t="Include">
+              <e p="Editor" t="Include">
+                <e p="GameManagerWindow.cs" t="Include" />
+              </e>
+              <e p="GameDataManager.cs" t="Include" />
+              <e p="GameManagerWindowInfo.cs" t="Include" />
+            </e>
+            <e p="Generated" t="Include">
+              <e p="PoolNames.cs" t="Include" />
+            </e>
+            <e p="Initialization" t="Include">
+              <e p="GameInitializer.cs" t="Include" />
+              <e p="IInitializable.cs" t="Include" />
+              <e p="Manager.cs" t="Include" />
+            </e>
+            <e p="Pooling" t="Include">
+              <e p="IPoolable.cs" t="Include" />
+              <e p="Pool.cs" t="Include" />
+              <e p="PoolManager.cs" t="Include" />
+              <e p="PoolReturn.cs" t="Include" />
+              <e p="Resources" t="Include">
+                <e p="PoolNamesTemplate.txt" t="Include" />
+              </e>
+              <e p="SpawnTester.cs" t="Include" />
+            </e>
+            <e p="Scene" t="Include">
+              <e p="SceneLoadManager.cs" t="Include" />
+              <e p="SceneReference.cs" t="Include" />
+            </e>
+            <e p="ScriptsWriter" t="Include">
+              <e p="ScriptWriter.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="_project" t="Include">
           <e p="Scripts" t="Include">
             <e p="Input" t="Include">
@@ -14,10 +51,45 @@
               <e p="Tester.cs" t="Include" />
             </e>
             <e p="Player" t="Include">
+              <e p="DashMeter.cs" t="Include" />
               <e p="Gravity.cs" t="Include" />
               <e p="Movement.cs" t="Include" />
             </e>
             <e p="SimpleCameraController.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Epic Toon FX" t="Include">
+          <e p="Demo" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="ETFXButtonScript.cs" t="Include" />
+              <e p="ETFXFireProjectile.cs" t="Include" />
+              <e p="ETFXLoopScript.cs" t="Include" />
+              <e p="ETFXMouseOrbit.cs" t="Include" />
+              <e p="ETFXProjectileScript.cs" t="Include" />
+              <e p="ETFXSceneManager.cs" t="Include" />
+              <e p="ETFXTarget.cs" t="Include" />
+              <e p="VFX Library" t="Include">
+                <e p="ParticleEffectsLibrary.cs" t="Include" />
+                <e p="PEButtonScript.cs" t="Include" />
+                <e p="UICanvasManager.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Prefabs" t="Include">
+            <e p="Combat" t="Include">
+              <e p="Combat FX.txt" t="Include" />
+            </e>
+            <e p="Environment" t="Include">
+              <e p="Environment FX.txt" t="Include" />
+            </e>
+            <e p="Interactive" t="Include">
+              <e p="Interactive FX.txt" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="ETFXLightFade.cs" t="Include" />
+            <e p="ETFXPitchRandomizer.cs" t="Include" />
+            <e p="ETFXRotation.cs" t="Include" />
           </e>
         </e>
         <e p="Plugins" t="Include">
