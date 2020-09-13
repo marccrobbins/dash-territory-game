@@ -49,3 +49,4 @@ MonoBehaviour:
     sceneName: 
   managers:
   - {fileID: 4266797391095089168, guid: 45fd2611267dfa64783fb266bffdac55, type: 3}
+  - {fileID: 2072332942239850027, guid: b1ea3b663468b7543926f84f97916a53, type: 3}
