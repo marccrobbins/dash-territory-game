@@ -10,14 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2f43bdc0a53764647824e5bc9c5b44e9, type: 3}
-  m_Name: Pooling
+  m_Name: PoolManager
   m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes: []
+  poolItems:
+  - poolName: BodySlamEffect
+    prefab: {fileID: 381393046880727555, guid: 307dbc5576d19f6439b3d0d94d7df4e0, type: 3}
+    warmCount: 10
+    framesCount: 10

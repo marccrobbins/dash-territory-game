@@ -25,7 +25,6 @@ namespace Framework.GameData
     {
         public string managerName;
         public string managerPath;
-        [SerializeReference, OnValueChanged("ValidateManagerType")]
         public object managerType;
 
         #region Odin
