@@ -2,12 +2,14 @@
 using Framework.Pooling;
 using Framework.Pooling.Generated;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace DashTerritory
 {
     public class Movement : MonoBehaviour
     {
-        [Header("References")]
+        [Header("References")] 
+        public PlayerInput playerInput;
         public Collider collider;
         public Rigidbody rigidbody;
         public DashMeter dashMeter;
@@ -36,9 +38,9 @@ namespace DashTerritory
         
         private void Start()
         {
-            InputManager.OnMovement += Move;
-            InputManager.OnDashPressed += DashButton;
-            InputManager.OnJumpPressed += JumpButton;
+            InputManager.RegisterMovementAxis(playerInput, Move);
+            InputManager.RegisterDashButton(playerInput, DashButton);
+            InputManager.RegisterJumpButton(playerInput, JumpButton);
         }
 
         private void FixedUpdate()
@@ -63,8 +65,6 @@ namespace DashTerritory
 
         private void Update()
         {
-            Debug.Log($"Velocity {rigidbody.velocity.magnitude}");
-            
             var transformPosition = transform.position;
             var halfHeight = collider.bounds.size.y * 0.5f;
             var checkStart = transformPosition;
@@ -142,9 +142,9 @@ namespace DashTerritory
         
         private void OnDestroy()
         {
-            InputManager.OnMovement -= Move;
-            InputManager.OnDashPressed -= DashButton;
-            InputManager.OnJumpPressed -= JumpButton;
+            InputManager.UnRegisterMovementAxis(playerInput, Move);
+            InputManager.UnRegisterDashButton(playerInput, DashButton);
+            InputManager.UnRegisterJumpButton(playerInput, JumpButton);
         }
     }
 }

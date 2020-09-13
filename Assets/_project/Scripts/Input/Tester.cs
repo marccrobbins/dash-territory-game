@@ -15,22 +15,22 @@ namespace DashTerritory
 
         private void Start()
         {
-            InputManager.OnStartPressed += StartPressed;
-            InputManager.OnJumpPressed += JumpPressed;
-            InputManager.OnDashPressed += DashPressed;
-            InputManager.OnSubmitPressed += SubmitPressed;
-            InputManager.OnSelection += Selection;
-            InputManager.OnMovement += Movement;
+//            InputManager.OnStartPressed += StartPressed;
+//            InputManager.OnJumpPressed += JumpPressed;
+//            InputManager.OnDashPressed += DashPressed;
+//            InputManager.OnSubmitPressed += SubmitPressed;
+//            InputManager.OnSelection += Selection;
+//            InputManager.OnMovement += Movement;
         }
 
         private void OnDestroy()
         {
-            InputManager.OnStartPressed -= StartPressed;
-            InputManager.OnJumpPressed -= JumpPressed;
-            InputManager.OnDashPressed -= DashPressed;
-            InputManager.OnSubmitPressed -= SubmitPressed;
-            InputManager.OnSelection -= Selection;
-            InputManager.OnMovement -= Movement;
+//            InputManager.OnStartPressed -= StartPressed;
+//            InputManager.OnJumpPressed -= JumpPressed;
+//            InputManager.OnDashPressed -= DashPressed;
+//            InputManager.OnSubmitPressed -= SubmitPressed;
+//            InputManager.OnSelection -= Selection;
+//            InputManager.OnMovement -= Movement;
         }
         
         #endregion MonoBehaviour
