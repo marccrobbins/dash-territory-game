@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_project/Scenes/TerritoryTiles.unity
+    guid: 714d9b72f3468414d974449e11211e4d
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 5c6ca92bedd15b8498fbcdf06b9ed2f8,
       type: 2}
