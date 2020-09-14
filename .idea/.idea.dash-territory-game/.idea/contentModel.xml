@@ -56,6 +56,11 @@
               <e p="Movement.cs" t="Include" />
             </e>
             <e p="SimpleCameraController.cs" t="Include" />
+            <e p="Territory" t="Include">
+              <e p="TerritoryGrid.cs" t="Include" />
+              <e p="TerritoryTile.cs" t="Include" />
+              <e p="TerritoryTileManager.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Epic Toon FX" t="Include">
