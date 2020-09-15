@@ -6,13 +6,13 @@ namespace Framework.Pooling
 {
     public class Pool : MonoBehaviour
     {
-        private PoolData poolData;
+        private PoolDataItem poolDataItem;
         public List<GameObject> consumed;
         public List<GameObject> unConsumed;
 
-        public void Initialize(PoolData data, List<GameObject> instances)
+        public void Initialize(PoolDataItem dataItem, List<GameObject> instances)
         {
-            poolData = data;
+            poolDataItem = dataItem;
             unConsumed = instances;
             consumed = new List<GameObject>();
         }
@@ -24,8 +24,8 @@ namespace Framework.Pooling
             //Create new instance because all others are already consumed
             if (unConsumed.Count == 0)
             {
-                var newInstance = Instantiate(poolData.prefab, transform);
-                newInstance.name = poolData.poolName;
+                var newInstance = Instantiate(poolDataItem.prefab, transform);
+                newInstance.name = poolDataItem.poolName;
                 consumed.Add(newInstance);
                 
                 return newInstance;
