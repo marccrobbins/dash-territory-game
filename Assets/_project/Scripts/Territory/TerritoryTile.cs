@@ -7,7 +7,8 @@ namespace DashTerritory
     public class TerritoryTile : MonoBehaviour
     {
         public Animator animator;
-
+        public Transform container;
+        
         [Header("Neighbours")] 
         public List<Neighbour> neighbours = new List<Neighbour>();
 
@@ -15,7 +16,7 @@ namespace DashTerritory
         {
             gameObject.SetActive(isVisible);
         }
-
+        
         [Button]
         public void Pulse()
         {

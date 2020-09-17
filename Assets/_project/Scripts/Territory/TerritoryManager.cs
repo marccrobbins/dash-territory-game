@@ -3,11 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Framework;
-using JetBrains.Annotations;
 using Sirenix.OdinInspector;
-using Sirenix.Utilities;
 using UnityEngine;
-using Random = UnityEngine.Random;
 
 namespace DashTerritory
 {
@@ -25,22 +22,30 @@ namespace DashTerritory
         public void BuildTerritory(Transform parent)
         {
             grid = new TerritoryTile[levelData.width, levelData.height];
-            var scale = territoryTilePrefab.transform.localScale;
-            var startingX = scale.x * levelData.width * 0.5f - scale.x * 0.5f;
-            var startingY = scale.z * levelData.height * 0.5f - scale.z * 0.5f;
+            var size = levelData.tileSize;
+            var startingX = size * levelData.width * 0.5f - size * 0.5f;
+            var startingY = size * levelData.height * 0.5f - size * 0.5f;
 
             for (var y = 0; y < levelData.height; y++)
             {
                 for (var x = 0; x < levelData.width; x++)
                 {
                     var newTile = Instantiate(territoryTilePrefab, parent);
+                    newTile.transform.localScale = Vector3.one * size;
+                    
                     var territoryTile = newTile.GetComponent<TerritoryTile>();
                     grid[x, y] = territoryTile;
+
+                    var data = levelData.grid[x, y];
+                    if (data.environmentItem)
+                    {
+                        var tileObject = Instantiate(data.environmentItem.cellPrefab, territoryTile.container);
+                    }
                     
                     var position = new Vector3
                     {
-                        x = -startingX + scale.x * x,
-                        z = startingY - scale.z * y
+                        x = -startingX + size * x,
+                        z = startingY - size * y
                     };
 
                     newTile.transform.position = position;

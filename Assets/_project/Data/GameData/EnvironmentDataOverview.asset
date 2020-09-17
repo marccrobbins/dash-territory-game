@@ -12,3 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7cb127f381143f448b6fa9a90fcd59e, type: 3}
   m_Name: EnvironmentDataOverview
   m_EditorClassIdentifier: 
+  environmentPieces:
+  - {fileID: 11400000, guid: fa85688a5fd554244a3d5b0568b3eec8, type: 2}
+  - {fileID: 11400000, guid: 08c376157289cdd4e93ef74143d76742, type: 2}
+  - {fileID: 11400000, guid: 881d20a8e82f88c4eacf4c148274c3b1, type: 2}

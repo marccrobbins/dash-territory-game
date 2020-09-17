@@ -12,6 +12,9 @@ namespace DashTerritory
         public int width;
         [OnValueChanged("UpdateGrid")]
         public int height;
+        public float tileSize = 2;
+        public EnvironmentItemData defaultTile;
+
         public LevelTileItem[,] grid;
 
         #region Odin
@@ -26,27 +29,11 @@ namespace DashTerritory
 
             grid = new LevelTileItem[width, height];
             
-            //Assign index
-//            for (var x = 0; x < width; x++)
-//            {
-//                for (var y = 0; y < height; y++)
-//                {
-//                    grid[x, y].index = new Index
-//                    {
-//                        x = x, y = y
-//                    };
-//                }
-//            }
-
-            //Find neighbours
-            for (var nx = Math.Max(0, width - 1); nx <= Math.Min(width + 1, 0); nx++)
+            for (var x = 0; x < width; x++)
             {
-                for (var ny = Math.Max(0, height - 1); ny <= Math.Min(height + 1, 0); ny++)
+                for (var y = 0; y < height; y++)
                 {
-                    if (nx != width || ny != height)
-                    {
-                        
-                    }
+                    grid[x, y].environmentItem = defaultTile;
                 }
             }
         }

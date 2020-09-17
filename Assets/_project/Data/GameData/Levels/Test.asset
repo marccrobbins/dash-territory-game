@@ -16,6 +16,7 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
+    - {fileID: 11400000, guid: fa85688a5fd554244a3d5b0568b3eec8, type: 2}
     - {fileID: 11400000, guid: 08c376157289cdd4e93ef74143d76742, type: 2}
     - {fileID: 11400000, guid: 881d20a8e82f88c4eacf4c148274c3b1, type: 2}
     SerializedBytesString: 
@@ -28,22 +29,52 @@ MonoBehaviour:
       Data: 0|DashTerritory.LevelTileItem[,], Assembly-CSharp
     - Name: 
       Entry: 12
-      Data: 120
+      Data: 160
     - Name: ranks
       Entry: 1
-      Data: 20|6
+      Data: 20|8
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
     - Name: isNotPopulated
       Entry: 5
-      Data: false
+      Data: true
     - Name: elevationLevel
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
       Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: true
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: true
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -57,8 +88,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -72,8 +103,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -87,8 +118,53 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
       Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: true
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: true
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: true
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -102,8 +178,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 1
     - Name: 
       Entry: 8
       Data: 
@@ -117,8 +193,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 1
     - Name: 
       Entry: 8
       Data: 
@@ -132,8 +208,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -147,8 +223,38 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
       Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -192,8 +298,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 2
     - Name: 
       Entry: 8
       Data: 
@@ -207,8 +313,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 2
     - Name: 
       Entry: 8
       Data: 
@@ -222,8 +328,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -237,8 +343,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -252,8 +358,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -267,8 +373,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -282,8 +388,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -297,8 +403,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 2
     - Name: 
       Entry: 8
       Data: 
@@ -312,8 +418,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 2
     - Name: 
       Entry: 8
       Data: 
@@ -322,13 +428,13 @@ MonoBehaviour:
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
     - Name: isNotPopulated
       Entry: 5
-      Data: false
+      Data: true
     - Name: elevationLevel
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -337,13 +443,13 @@ MonoBehaviour:
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
     - Name: isNotPopulated
       Entry: 5
-      Data: false
+      Data: true
     - Name: elevationLevel
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -357,8 +463,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -372,8 +478,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -387,8 +493,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -402,8 +508,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -417,8 +523,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -432,8 +538,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -447,8 +553,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -462,8 +568,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -477,8 +583,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -492,8 +598,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -507,8 +613,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -522,8 +628,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -537,8 +643,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -552,8 +658,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -567,8 +673,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -582,8 +688,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -597,8 +703,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -607,13 +713,13 @@ MonoBehaviour:
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
     - Name: isNotPopulated
       Entry: 5
-      Data: false
+      Data: true
     - Name: elevationLevel
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -622,13 +728,13 @@ MonoBehaviour:
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
     - Name: isNotPopulated
       Entry: 5
-      Data: false
+      Data: true
     - Name: elevationLevel
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -642,8 +748,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -657,8 +763,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -672,8 +778,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -687,8 +793,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -702,8 +808,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -717,8 +823,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -727,13 +833,13 @@ MonoBehaviour:
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
     - Name: isNotPopulated
       Entry: 5
-      Data: false
+      Data: true
     - Name: elevationLevel
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -747,8 +853,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -762,8 +868,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -777,8 +883,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -792,8 +898,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -807,8 +913,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -822,8 +928,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -837,8 +943,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -852,8 +958,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -867,8 +973,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -882,8 +988,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -897,8 +1003,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -912,8 +1018,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -927,8 +1033,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 1
     - Name: 
       Entry: 8
       Data: 
@@ -937,13 +1043,13 @@ MonoBehaviour:
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
     - Name: isNotPopulated
       Entry: 5
-      Data: false
+      Data: true
     - Name: elevationLevel
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -952,13 +1058,13 @@ MonoBehaviour:
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
     - Name: isNotPopulated
       Entry: 5
-      Data: false
+      Data: true
     - Name: elevationLevel
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -972,8 +1078,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 2
     - Name: 
       Entry: 8
       Data: 
@@ -987,8 +1093,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 2
     - Name: 
       Entry: 8
       Data: 
@@ -1002,8 +1108,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1017,8 +1123,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1032,8 +1138,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 2
     - Name: 
       Entry: 8
       Data: 
@@ -1042,13 +1148,13 @@ MonoBehaviour:
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
     - Name: isNotPopulated
       Entry: 5
-      Data: false
+      Data: true
     - Name: elevationLevel
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1057,13 +1163,13 @@ MonoBehaviour:
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
     - Name: isNotPopulated
       Entry: 5
-      Data: false
+      Data: true
     - Name: elevationLevel
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1077,8 +1183,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 2
     - Name: 
       Entry: 8
       Data: 
@@ -1092,8 +1198,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 1
     - Name: 
       Entry: 8
       Data: 
@@ -1107,8 +1213,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 2
     - Name: 
       Entry: 8
       Data: 
@@ -1122,8 +1228,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1137,8 +1243,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1152,8 +1258,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 2
     - Name: 
       Entry: 8
       Data: 
@@ -1162,13 +1268,13 @@ MonoBehaviour:
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
     - Name: isNotPopulated
       Entry: 5
-      Data: false
+      Data: true
     - Name: elevationLevel
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1177,13 +1283,13 @@ MonoBehaviour:
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
     - Name: isNotPopulated
       Entry: 5
-      Data: false
+      Data: true
     - Name: elevationLevel
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1197,8 +1303,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 2
     - Name: 
       Entry: 8
       Data: 
@@ -1212,8 +1318,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 1
     - Name: 
       Entry: 8
       Data: 
@@ -1227,8 +1333,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 2
     - Name: 
       Entry: 8
       Data: 
@@ -1242,8 +1348,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1257,8 +1363,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1272,8 +1378,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1287,8 +1393,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 1
     - Name: 
       Entry: 8
       Data: 
@@ -1297,13 +1403,28 @@ MonoBehaviour:
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
     - Name: isNotPopulated
       Entry: 5
-      Data: false
+      Data: true
     - Name: elevationLevel
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
       Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: true
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1317,8 +1438,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 2
     - Name: 
       Entry: 8
       Data: 
@@ -1332,8 +1453,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 2
     - Name: 
       Entry: 8
       Data: 
@@ -1347,8 +1468,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1362,8 +1483,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1377,8 +1498,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1392,8 +1513,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1407,8 +1528,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1422,8 +1543,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1437,8 +1558,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1452,8 +1573,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1467,8 +1588,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1482,8 +1603,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1497,8 +1618,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1512,8 +1633,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1527,8 +1648,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1542,8 +1663,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1557,8 +1678,23 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
       Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: true
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1572,8 +1708,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1587,8 +1723,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1602,8 +1738,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1617,8 +1753,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1632,8 +1768,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1647,8 +1783,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1657,13 +1793,28 @@ MonoBehaviour:
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
     - Name: isNotPopulated
       Entry: 5
-      Data: false
+      Data: true
     - Name: elevationLevel
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
       Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: true
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1677,8 +1828,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1692,8 +1843,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1707,8 +1858,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1722,8 +1873,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1737,8 +1888,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1752,8 +1903,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1767,8 +1918,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1782,8 +1933,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1797,8 +1948,23 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
       Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: true
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1812,8 +1978,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1827,8 +1993,443 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: environmentItem
-      Entry: 6
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: true
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: true
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: true
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: true
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: true
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: true
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: true
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: true
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
       Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: true
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -1839,4 +2440,6 @@ MonoBehaviour:
       Entry: 8
       Data: 
   width: 20
-  height: 6
+  height: 8
+  tileSize: 3
+  defaultTile: {fileID: 11400000, guid: fa85688a5fd554244a3d5b0568b3eec8, type: 2}
