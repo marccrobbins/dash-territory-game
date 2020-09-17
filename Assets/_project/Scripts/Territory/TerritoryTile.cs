@@ -1,27 +1,37 @@
 ﻿using System.Collections.Generic;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace DashTerritory
 {
     public class TerritoryTile : MonoBehaviour
     {
-        public List<TerritoryTile> neighbours = new List<TerritoryTile>();
+        public Animator animator;
+
+        [Header("Neighbours")] 
+        public List<Neighbour> neighbours = new List<Neighbour>();
 
         public void SetVisibility(bool isVisible)
         {
             gameObject.SetActive(isVisible);
         }
 
+        [Button]
+        public void Pulse()
+        {
+            //Don't activate another pulse if one is still running
+            animator.SetTrigger("Pulse");
+        }
+
         private void OnDrawGizmosSelected()
         {
-            if (neighbours.Count == 0) return;
-
             Gizmos.color = Color.cyan;
-            
+
+            if (neighbours == null || neighbours.Count == 0) return;
+
             foreach (var neighbour in neighbours)
             {
-                if (!neighbour) continue;
-                Gizmos.DrawSphere(neighbour.transform.position, 0.5f);
+                Gizmos.DrawSphere(neighbour.territory.transform.position, 0.5f);
             }
         }
     }

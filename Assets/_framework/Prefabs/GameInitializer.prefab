@@ -44,9 +44,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firstScene:
-    sceneAsset: {fileID: 0}
-    scenePath: 
-    sceneName: 
+    sceneAsset: {fileID: 102900000, guid: 79487a32845b5dc4d9f8388fa952a4b6, type: 3}
+    scenePath: Assets/_project/Scenes/Builder.unity
+    sceneName: Builder
   managers:
   - {fileID: 4266797391095089168, guid: 45fd2611267dfa64783fb266bffdac55, type: 3}
   - {fileID: 2072332942239850027, guid: b1ea3b663468b7543926f84f97916a53, type: 3}
+  - {fileID: 6436191396338176398, guid: 2b5d5a4b29225004481a2b8447d3bb3b, type: 3}

@@ -144,7 +144,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 80
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!114 &2228437730277385062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,7 +166,7 @@ MonoBehaviour:
     m_Bits: 512
   moveSpeed: 10
   dashCooldown: 2
-  dashForce: 5
+  dashForce: 8
   jumpForce: 6
   groundSmashForce: 8
   groundedCheckDistance: 0.1
@@ -244,7 +244,7 @@ MonoBehaviour:
     m_ActionName: Game/Dash[/XInputControllerWindows/buttonWest,/XInputControllerWindows/buttonWest]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: 0a721952-7535-41ec-9f9f-125710cd3e9c
+  m_DefaultActionMap: Game
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!1 &2228437730467462136

@@ -133,21 +133,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameInitializer
       objectReference: {fileID: 0}
-    - target: {fileID: 6412056718685456888, guid: 1389ba317098310489f5f2b568c08697,
-        type: 3}
-      propertyPath: firstScene.sceneAsset
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6412056718685456888, guid: 1389ba317098310489f5f2b568c08697,
-        type: 3}
-      propertyPath: firstScene.scenePath
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6412056718685456888, guid: 1389ba317098310489f5f2b568c08697,
-        type: 3}
-      propertyPath: firstScene.sceneName
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 6412056718685456889, guid: 1389ba317098310489f5f2b568c08697,
         type: 3}
       propertyPath: m_LocalPosition.x
