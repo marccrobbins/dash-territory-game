@@ -15,3 +15,4 @@ MonoBehaviour:
   gameDataManagers:
   - {fileID: 11400000, guid: 83b3528177ca0fa4287018f028adc08d, type: 2}
   - {fileID: 11400000, guid: 56c78cdef2ba36c4f850a13ff4eb459e, type: 2}
+  - {fileID: 11400000, guid: 284562b037210ff498806ff6328c780c, type: 2}

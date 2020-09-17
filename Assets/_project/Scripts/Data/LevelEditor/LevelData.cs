@@ -27,16 +27,16 @@ namespace DashTerritory
             grid = new LevelTileItem[width, height];
             
             //Assign index
-            for (var x = 0; x < width; x++)
-            {
-                for (var y = 0; y < height; y++)
-                {
-                    grid[x, y].index = new Index
-                    {
-                        x = x, y = y
-                    };
-                }
-            }
+//            for (var x = 0; x < width; x++)
+//            {
+//                for (var y = 0; y < height; y++)
+//                {
+//                    grid[x, y].index = new Index
+//                    {
+//                        x = x, y = y
+//                    };
+//                }
+//            }
 
             //Find neighbours
             for (var nx = Math.Max(0, width - 1); nx <= Math.Min(width + 1, 0); nx++)

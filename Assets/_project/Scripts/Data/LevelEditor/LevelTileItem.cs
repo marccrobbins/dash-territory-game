@@ -6,17 +6,9 @@ namespace DashTerritory
 {
     public struct LevelTileItem
     {
-        public Index index;
         public bool isNotPopulated;
         public int elevationLevel;
-        public List<Index> neighbours;
-
+        public EnvironmentItemData environmentItem;
         //Add drag and droppable item for power up
-    }
-
-    public struct Index
-    {
-        public int x;
-        public int y;
     }
 }

@@ -1,13 +1,13 @@
 ﻿using System;
 using UnityEngine;
-using Object = System.Object;
 
 namespace Framework.GameData
 {
     public abstract class GameDataManager : ScriptableObject 
     {
-        public abstract Type childType { get; } 
-        public abstract string childrenDirectory { get; }
+        public abstract Type ChildType { get; } 
+        public abstract string ChildrenDirectory { get; }
+        public abstract bool IsDraggable { get; }
 
         public abstract ScriptableObject CreateNew();
     }

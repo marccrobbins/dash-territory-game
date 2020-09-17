@@ -48,17 +48,23 @@
         </e>
         <e p="_project" t="Include">
           <e p="Scripts" t="Include">
+            <e p="Data" t="Include">
+              <e p="EnvironmentData" t="Include">
+                <e p="EnvironmentDataOverview.cs" t="Include" />
+                <e p="EnvironmentItemData.cs" t="Include" />
+              </e>
+              <e p="LevelEditor" t="Include">
+                <e p="LevelBuilder.cs" t="Include" />
+                <e p="LevelData.cs" t="Include" />
+                <e p="LevelDataOverview.cs" t="Include" />
+                <e p="LevelEditorCellDrawer.cs" t="Include" />
+                <e p="LevelTileItem.cs" t="Include" />
+              </e>
+            </e>
             <e p="Input" t="Include">
               <e p="GameInput.cs" t="Include" />
               <e p="InputManager.cs" t="Include" />
               <e p="Tester.cs" t="Include" />
-            </e>
-            <e p="LevelEditor" t="Include">
-              <e p="LevelBuilder.cs" t="Include" />
-              <e p="LevelData.cs" t="Include" />
-              <e p="LevelEditor.cs" t="Include" />
-              <e p="LevelEditorCellDrawer.cs" t="Include" />
-              <e p="LevelTileItem.cs" t="Include" />
             </e>
             <e p="Player" t="Include">
               <e p="DashMeter.cs" t="Include" />
@@ -105,6 +111,9 @@
             <e p="ETFXPitchRandomizer.cs" t="Include" />
             <e p="ETFXRotation.cs" t="Include" />
           </e>
+        </e>
+        <e p="kenney_natureKit_2.1" t="Include">
+          <e p="LICENSE.txt" t="Include" />
         </e>
         <e p="Photon" t="Include">
           <e p="PhotonChat" t="Include">

@@ -9,6 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba7b9feac3adf3b4e9b6a7c6456bd323, type: 3}
-  m_Name: LevelEditor
+  m_Script: {fileID: 11500000, guid: 963184db88224ed4e9bb3c0fb19de273, type: 3}
+  m_Name: HalfBlock
   m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 942e6a9b1c553fa47abf452b8e2d20b7, type: 3}
+  name: HalfBlock
+  cellPrefab: {fileID: 0}

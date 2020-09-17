@@ -35,15 +35,17 @@ namespace DashTerritory
             var id = DragAndDropUtilities.GetDragAndDropId(rect);
 
             //GUI.backgroundColor = value.color;
-            DragAndDropUtilities.DrawDropZone(rect, value.isNotPopulated ? null : TileIcon, null, id);
+            var icon = TileIcon;
+            if (value.environmentItem) icon = value.environmentItem.icon;
+            DragAndDropUtilities.DrawDropZone(rect, value.isNotPopulated ? null : icon, null, id);
 
             value = DrawTileGui(rect, value);
 
             GUI.backgroundColor = Color.white;
 
             value = DragAndDropUtilities.DropZone(rect, value); // Drop zone for ItemSlot structs.
-            //value.item = DragAndDropUtilities.DropZone(rect, value.item); // Drop zone for Item types.
-            //value.item = DragAndDropUtilities.DragZone(rect, value.item, true, true); // Enables dragging of the ItemSlot
+            value.environmentItem = DragAndDropUtilities.DropZone(rect, value.environmentItem); // Drop zone for Item types.
+            value.environmentItem = DragAndDropUtilities.DragZone(rect, value.environmentItem, true, true); // Enables dragging of the ItemSlot
 
             return value;
         }

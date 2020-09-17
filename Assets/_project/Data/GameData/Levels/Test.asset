@@ -15,7 +15,9 @@ MonoBehaviour:
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
-    ReferencedUnityObjects: []
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 08c376157289cdd4e93ef74143d76742, type: 2}
+    - {fileID: 11400000, guid: 881d20a8e82f88c4eacf4c148274c3b1, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -33,25 +35,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 0
-    - Name: y
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -60,322 +50,148 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: y
+    - Name: environmentItem
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
       Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
+      Entry: 3
+      Data: 0
+    - Name: environmentItem
+      Entry: 10
       Data: 1
     - Name: 
       Entry: 8
       Data: 
-    - Name: isNotPopulated
-      Entry: 5
-      Data: false
-    - Name: elevationLevel
-      Entry: 3
-      Data: 0
-    - Name: neighbours
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 0
-    - Name: y
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: isNotPopulated
-      Entry: 5
-      Data: false
-    - Name: elevationLevel
-      Entry: 3
-      Data: 0
-    - Name: neighbours
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 0
-    - Name: y
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: isNotPopulated
-      Entry: 5
-      Data: false
-    - Name: elevationLevel
-      Entry: 3
-      Data: 0
-    - Name: neighbours
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 0
-    - Name: y
-      Entry: 3
-      Data: 4
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: isNotPopulated
-      Entry: 5
-      Data: false
-    - Name: elevationLevel
-      Entry: 3
-      Data: 0
-    - Name: neighbours
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 0
-    - Name: y
-      Entry: 3
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: isNotPopulated
-      Entry: 5
-      Data: false
-    - Name: elevationLevel
-      Entry: 3
-      Data: 0
-    - Name: neighbours
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 1
-    - Name: y
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: isNotPopulated
-      Entry: 5
-      Data: false
-    - Name: elevationLevel
-      Entry: 3
-      Data: 0
-    - Name: neighbours
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 1
-    - Name: y
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: isNotPopulated
-      Entry: 5
-      Data: false
-    - Name: elevationLevel
-      Entry: 3
-      Data: 0
-    - Name: neighbours
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 1
-    - Name: y
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: isNotPopulated
-      Entry: 5
-      Data: false
-    - Name: elevationLevel
-      Entry: 3
-      Data: 0
-    - Name: neighbours
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 1
-    - Name: y
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: isNotPopulated
-      Entry: 5
-      Data: false
-    - Name: elevationLevel
-      Entry: 3
-      Data: 0
-    - Name: neighbours
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 1
-    - Name: y
-      Entry: 3
-      Data: 4
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: isNotPopulated
-      Entry: 5
-      Data: false
-    - Name: elevationLevel
-      Entry: 3
-      Data: 0
-    - Name: neighbours
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 1
-    - Name: y
-      Entry: 3
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: isNotPopulated
-      Entry: 5
-      Data: false
-    - Name: elevationLevel
-      Entry: 3
-      Data: 0
-    - Name: neighbours
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 2
-    - Name: y
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -384,25 +200,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 2
-    - Name: y
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -411,25 +215,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 2
-    - Name: y
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -438,25 +230,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 2
-    - Name: y
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -465,25 +245,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 2
-    - Name: y
-      Entry: 3
-      Data: 4
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -492,25 +260,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 2
-    - Name: y
-      Entry: 3
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -519,25 +275,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 3
-    - Name: y
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -546,25 +290,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 3
-    - Name: y
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -573,25 +305,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 3
-    - Name: y
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -600,25 +320,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 3
-    - Name: y
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -627,25 +335,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 3
-    - Name: y
-      Entry: 3
-      Data: 4
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -654,25 +350,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 3
-    - Name: y
-      Entry: 3
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -681,25 +365,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 4
-    - Name: y
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -708,25 +380,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 4
-    - Name: y
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -735,25 +395,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 4
-    - Name: y
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -762,25 +410,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 4
-    - Name: y
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -789,25 +425,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 4
-    - Name: y
-      Entry: 3
-      Data: 4
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -816,25 +440,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 4
-    - Name: y
-      Entry: 3
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -843,25 +455,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 5
-    - Name: y
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -870,25 +470,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 5
-    - Name: y
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -897,25 +485,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 5
-    - Name: y
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -924,25 +500,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 5
-    - Name: y
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -951,25 +515,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 5
-    - Name: y
-      Entry: 3
-      Data: 4
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -978,25 +530,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 5
-    - Name: y
-      Entry: 3
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1005,52 +545,28 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 6
-    - Name: y
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
       Entry: 8
       Data: 
     - Name: 
-      Entry: 7
-      Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
       Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 6
-    - Name: y
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1059,25 +575,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 6
-    - Name: y
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1086,25 +590,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 6
-    - Name: y
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1113,25 +605,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 6
-    - Name: y
-      Entry: 3
-      Data: 4
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1140,25 +620,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 6
-    - Name: y
-      Entry: 3
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1167,25 +635,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 7
-    - Name: y
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1194,25 +650,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 7
-    - Name: y
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1221,25 +665,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 7
-    - Name: y
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1248,25 +680,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 7
-    - Name: y
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1275,25 +695,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 7
-    - Name: y
-      Entry: 3
-      Data: 4
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1302,25 +710,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 7
-    - Name: y
-      Entry: 3
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1329,25 +725,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 8
-    - Name: y
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1356,25 +740,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 8
-    - Name: y
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1383,25 +755,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 8
-    - Name: y
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1410,25 +770,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 8
-    - Name: y
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1437,25 +785,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 8
-    - Name: y
-      Entry: 3
-      Data: 4
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1464,25 +800,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 8
-    - Name: y
-      Entry: 3
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1491,25 +815,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 9
-    - Name: y
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1518,25 +830,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 9
-    - Name: y
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1545,25 +845,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 9
-    - Name: y
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1572,25 +860,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 9
-    - Name: y
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1599,25 +875,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 9
-    - Name: y
-      Entry: 3
-      Data: 4
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1626,25 +890,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 9
-    - Name: y
-      Entry: 3
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1653,25 +905,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 10
-    - Name: y
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1680,25 +920,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 10
-    - Name: y
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1707,25 +935,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 10
-    - Name: y
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1734,25 +950,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 10
-    - Name: y
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1761,25 +965,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 10
-    - Name: y
-      Entry: 3
-      Data: 4
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1788,25 +980,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 10
-    - Name: y
-      Entry: 3
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1815,25 +995,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 11
-    - Name: y
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1842,25 +1010,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 11
-    - Name: y
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1869,25 +1025,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 11
-    - Name: y
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1896,25 +1040,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 11
-    - Name: y
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1923,25 +1055,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 11
-    - Name: y
-      Entry: 3
-      Data: 4
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1950,25 +1070,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 11
-    - Name: y
-      Entry: 3
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -1977,25 +1085,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 12
-    - Name: y
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2004,25 +1100,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 12
-    - Name: y
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2031,25 +1115,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 12
-    - Name: y
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2058,25 +1130,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 12
-    - Name: y
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2085,25 +1145,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 12
-    - Name: y
-      Entry: 3
-      Data: 4
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2112,25 +1160,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 12
-    - Name: y
-      Entry: 3
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2139,25 +1175,28 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 13
-    - Name: y
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
       Entry: 3
       Data: 0
+    - Name: environmentItem
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2166,25 +1205,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 13
-    - Name: y
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2193,25 +1220,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 13
-    - Name: y
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2220,25 +1235,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 13
-    - Name: y
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2247,25 +1250,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 13
-    - Name: y
-      Entry: 3
-      Data: 4
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2274,25 +1265,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 13
-    - Name: y
-      Entry: 3
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2301,25 +1280,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 14
-    - Name: y
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2328,25 +1295,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 14
-    - Name: y
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2355,25 +1310,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 14
-    - Name: y
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2382,25 +1325,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 14
-    - Name: y
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2409,25 +1340,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 14
-    - Name: y
-      Entry: 3
-      Data: 4
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2436,25 +1355,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 14
-    - Name: y
-      Entry: 3
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2463,25 +1370,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 15
-    - Name: y
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2490,25 +1385,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 15
-    - Name: y
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2517,25 +1400,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 15
-    - Name: y
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2544,25 +1415,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 15
-    - Name: y
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2571,25 +1430,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 15
-    - Name: y
-      Entry: 3
-      Data: 4
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2598,25 +1445,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 15
-    - Name: y
-      Entry: 3
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2625,25 +1460,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 16
-    - Name: y
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2652,25 +1475,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 16
-    - Name: y
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2679,25 +1490,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 16
-    - Name: y
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2706,25 +1505,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 16
-    - Name: y
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2733,25 +1520,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 16
-    - Name: y
-      Entry: 3
-      Data: 4
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2760,25 +1535,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 16
-    - Name: y
-      Entry: 3
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2787,25 +1550,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 17
-    - Name: y
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2814,25 +1565,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 17
-    - Name: y
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2841,25 +1580,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 17
-    - Name: y
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2868,25 +1595,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 17
-    - Name: y
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2895,25 +1610,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 17
-    - Name: y
-      Entry: 3
-      Data: 4
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2922,25 +1625,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 17
-    - Name: y
-      Entry: 3
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2949,25 +1640,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 18
-    - Name: y
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -2976,25 +1655,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 18
-    - Name: y
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -3003,25 +1670,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 18
-    - Name: y
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -3030,25 +1685,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 18
-    - Name: y
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -3057,25 +1700,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 18
-    - Name: y
-      Entry: 3
-      Data: 4
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -3084,25 +1715,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 18
-    - Name: y
-      Entry: 3
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -3111,25 +1730,28 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 19
-    - Name: y
+    - Name: isNotPopulated
+      Entry: 5
+      Data: false
+    - Name: elevationLevel
       Entry: 3
       Data: 0
+    - Name: environmentItem
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
+    - Name: 
+      Entry: 7
+      Data: DashTerritory.LevelTileItem, Assembly-CSharp
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -3138,25 +1760,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 19
-    - Name: y
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -3165,25 +1775,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 19
-    - Name: y
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -3192,25 +1790,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 19
-    - Name: y
-      Entry: 3
-      Data: 3
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -3219,25 +1805,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 19
-    - Name: y
-      Entry: 3
-      Data: 4
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 
@@ -3246,25 +1820,13 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: DashTerritory.LevelTileItem, Assembly-CSharp
-    - Name: index
-      Entry: 7
-      Data: DashTerritory.Index, Assembly-CSharp
-    - Name: x
-      Entry: 3
-      Data: 19
-    - Name: y
-      Entry: 3
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: isNotPopulated
       Entry: 5
       Data: false
     - Name: elevationLevel
       Entry: 3
       Data: 0
-    - Name: neighbours
+    - Name: environmentItem
       Entry: 6
       Data: 
     - Name: 

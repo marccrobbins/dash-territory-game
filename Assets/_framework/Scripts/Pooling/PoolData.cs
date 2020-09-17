@@ -13,9 +13,10 @@ namespace Framework.Pooling
     [CreateAssetMenu(menuName = "GameData/PoolData", fileName = "PoolData")]
     public class PoolData : GameDataManager
     {
-        public override Type childType => null;
-        public override string childrenDirectory => string.Empty;
-        
+        public override Type ChildType => null;
+        public override string ChildrenDirectory => string.Empty;
+        public override bool IsDraggable => false;
+
         [TableList(AlwaysExpanded = true)]
         public PoolDataItem[] poolDataList;
         

@@ -1,4 +1,8 @@
-﻿#if UNITY_EDITOR
+﻿
+using System;
+using Sirenix.Utilities;
+using Object = UnityEngine.Object;
+#if UNITY_EDITOR
 using System.Linq;
 using Sirenix.OdinInspector.Editor;
 using Sirenix.Utilities.Editor;
@@ -42,11 +46,21 @@ namespace Framework.GameData
                 tree.Add(manager.name, manager);
                 
                 //check if we need to add children to the tree
-                if (string.IsNullOrEmpty(manager.childrenDirectory)) continue;
-                tree.AddAllAssetsAtPath(manager.name, manager.childrenDirectory, manager.childType, true);
+                if (string.IsNullOrEmpty(manager.ChildrenDirectory)) continue;
+                tree.AddAllAssetsAtPath(manager.name, manager.ChildrenDirectory, manager.ChildType, true);
+
+                if (manager.IsDraggable)
+                {
+                    tree.EnumerateTree().Where(x => x.Value.GetType() == manager.ChildType).ForEach(AddDragHandles);
+                }
             }
             
             return tree;
+        }
+        
+        private void AddDragHandles(OdinMenuItem menuItem)
+        {
+            menuItem.OnDrawItem += x => DragAndDropUtilities.DragZone(menuItem.Rect, menuItem.Value, false, false);
         }
 
         private GameDataManager activeManager;
@@ -70,7 +84,7 @@ namespace Framework.GameData
                 
                 if (activeManager == null) return;
                 
-                var hasChildren = !string.IsNullOrEmpty(activeManager.childrenDirectory) && activeManager.childType != null;
+                var hasChildren = !string.IsNullOrEmpty(activeManager.ChildrenDirectory) && activeManager.ChildType != null;
                 if (hasChildren)
                 {
                     if (SirenixEditorGUI.ToolbarButton(new GUIContent("Create")))
