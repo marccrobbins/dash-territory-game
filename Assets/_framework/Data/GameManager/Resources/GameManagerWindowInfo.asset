@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23c31916697ca634cb8742166f939fc7, type: 3}
   m_Name: GameManagerWindowInfo
   m_EditorClassIdentifier: 
-  references:
-  - managerName: PoolingManager
-    managerPath: Assets/_project/Data/Game
-    managerType: {fileID: 11500000, guid: 2f43bdc0a53764647824e5bc9c5b44e9, type: 3}
+  gameDataManagers:
+  - {fileID: 11400000, guid: 83b3528177ca0fa4287018f028adc08d, type: 2}
+  - {fileID: 11400000, guid: 56c78cdef2ba36c4f850a13ff4eb459e, type: 2}
+  - {fileID: 11400000, guid: 284562b037210ff498806ff6328c780c, type: 2}

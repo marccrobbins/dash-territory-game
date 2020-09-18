@@ -45,13 +45,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   poolPrefab: {fileID: 9196701003753453350, guid: 7c1bb4bc9becd5349b5ec06de7c95027,
     type: 3}
-  poolDataList:
-  - poolName: BodySlamEffect
-    prefab: {fileID: 381393046880727555, guid: 307dbc5576d19f6439b3d0d94d7df4e0, type: 3}
-    warmCount: 5
-    framesCount: 5
-  - poolName: DashEffect
-    prefab: {fileID: 6343447783784376058, guid: 238948db273de5a449671c9d8b44370f,
-      type: 3}
-    warmCount: 5
-    framesCount: 5
+  poolData: {fileID: 11400000, guid: 83b3528177ca0fa4287018f028adc08d, type: 2}

@@ -4,16 +4,17 @@
     <e p="C:\Users\marcr\.Rider2019.2\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\marcr\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_dash-territory-game.-1353122775.00" t="ExcludeRecursive" />
     <e p="J:\marcr\Documents\Development\CrowsNestGames\dash-territory-game" t="IncludeRecursive">
-      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="_framework" t="Include">
           <e p="Scripts" t="Include">
+            <e p="Extensions" t="Include">
+              <e p="ArrayExtensions.cs" t="Include" />
+              <e p="DictionaryExtensions.cs" t="Include" />
+            </e>
             <e p="GameManager" t="Include">
-              <e p="Editor" t="Include">
-                <e p="GameManagerWindow.cs" t="Include" />
-              </e>
               <e p="GameDataManager.cs" t="Include" />
+              <e p="GameManagerWindow.cs" t="Include" />
               <e p="GameManagerWindowInfo.cs" t="Include" />
             </e>
             <e p="Generated" t="Include">
@@ -27,6 +28,7 @@
             <e p="Pooling" t="Include">
               <e p="IPoolable.cs" t="Include" />
               <e p="Pool.cs" t="Include" />
+              <e p="PoolData.cs" t="Include" />
               <e p="PoolManager.cs" t="Include" />
               <e p="PoolReturn.cs" t="Include" />
               <e p="Resources" t="Include">
@@ -38,6 +40,7 @@
               <e p="SceneLoadManager.cs" t="Include" />
               <e p="SceneReference.cs" t="Include" />
             </e>
+            <e p="ScriptableObjectCreator.cs" t="Include" />
             <e p="ScriptsWriter" t="Include">
               <e p="ScriptWriter.cs" t="Include" />
             </e>
@@ -45,6 +48,19 @@
         </e>
         <e p="_project" t="Include">
           <e p="Scripts" t="Include">
+            <e p="Data" t="Include">
+              <e p="EnvironmentData" t="Include">
+                <e p="EnvironmentDataOverview.cs" t="Include" />
+                <e p="EnvironmentItemData.cs" t="Include" />
+              </e>
+              <e p="LevelEditor" t="Include">
+                <e p="LevelBuilder.cs" t="Include" />
+                <e p="LevelData.cs" t="Include" />
+                <e p="LevelDataOverview.cs" t="Include" />
+                <e p="LevelEditorCellDrawer.cs" t="Include" />
+                <e p="LevelTileItem.cs" t="Include" />
+              </e>
+            </e>
             <e p="Input" t="Include">
               <e p="GameInput.cs" t="Include" />
               <e p="InputManager.cs" t="Include" />
@@ -56,6 +72,10 @@
               <e p="Movement.cs" t="Include" />
             </e>
             <e p="SimpleCameraController.cs" t="Include" />
+            <e p="Territory" t="Include">
+              <e p="TerritoryManager.cs" t="Include" />
+              <e p="TerritoryTile.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Epic Toon FX" t="Include">
@@ -91,6 +111,9 @@
             <e p="ETFXPitchRandomizer.cs" t="Include" />
             <e p="ETFXRotation.cs" t="Include" />
           </e>
+        </e>
+        <e p="kenney_natureKit_2.1" t="Include">
+          <e p="LICENSE.txt" t="Include" />
         </e>
         <e p="Photon" t="Include">
           <e p="PhotonChat" t="Include">

@@ -16,8 +16,7 @@ namespace Framework.GameData
             }
         }
 
-
-        public GameDataManagerReference[] references;
+        public GameDataManager[] gameDataManagers;
     }
 
     [System.Serializable]
@@ -29,13 +28,13 @@ namespace Framework.GameData
 
         #region Odin
 
-        private void ValidateManagerType()
-        {
-            if (managerType is GameDataManager) return;
-            
-            Debug.LogError($"{managerType} does not derive from GameDataManager.");
-            managerType = null;
-        }
+//        private void ValidateManagerType()
+//        {
+//            if (managerType is GameDataManager) return;
+//            
+//            Debug.LogError($"{managerType} does not derive from GameDataManager.");
+//            managerType = null;
+//        }
 
         #endregion Odin
     }
