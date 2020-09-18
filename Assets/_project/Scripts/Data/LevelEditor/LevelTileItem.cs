@@ -8,7 +8,8 @@ namespace DashTerritory
     {
         public bool isNotPopulated;
         public int elevationLevel;
-        public EnvironmentItemData environmentItem;
-        //Add drag and droppable item for power up
+        public EnvironmentTile tile;
+        public EnvironmentModifier modifier;
+        //public Dictionary<string, EnvironmentModifier> modifiers;
     }
 }

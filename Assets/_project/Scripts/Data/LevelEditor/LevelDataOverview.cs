@@ -28,5 +28,11 @@ namespace DashTerritory
 
             return newObject;
         }
+        
+        public override void Delete(ScriptableObject obj)
+        {
+            var data = (LevelData) obj;
+            levels.Remove(data);
+        }
     }
 }

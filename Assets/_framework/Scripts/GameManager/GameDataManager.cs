@@ -10,5 +10,6 @@ namespace Framework.GameData
         public abstract bool IsDraggable { get; }
 
         public abstract ScriptableObject CreateNew();
+        public abstract void Delete(ScriptableObject obj);
     }
 }

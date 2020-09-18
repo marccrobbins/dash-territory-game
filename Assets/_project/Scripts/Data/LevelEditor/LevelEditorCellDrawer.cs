@@ -28,15 +28,12 @@ namespace DashTerritory
             };
         }
 
-        private bool wasClicked = false;
         protected override LevelTileItem DrawElement(Rect rect, LevelTileItem value)
         {
-            wasClicked = false;
             var id = DragAndDropUtilities.GetDragAndDropId(rect);
 
-            //GUI.backgroundColor = value.color;
             var icon = TileIcon;
-            if (value.environmentItem) icon = value.environmentItem.icon;
+            if (value.tile) icon = value.tile.icon;
             DragAndDropUtilities.DrawDropZone(rect, value.isNotPopulated ? null : icon, null, id);
 
             value = DrawTileGui(rect, value);
@@ -44,8 +41,14 @@ namespace DashTerritory
             GUI.backgroundColor = Color.white;
 
             value = DragAndDropUtilities.DropZone(rect, value); // Drop zone for ItemSlot structs.
-            value.environmentItem = DragAndDropUtilities.DropZone(rect, value.environmentItem); // Drop zone for Item types.
-            value.environmentItem = DragAndDropUtilities.DragZone(rect, value.environmentItem, true, true); // Enables dragging of the ItemSlot
+            value.tile = DragAndDropUtilities.DropZone(rect, value.tile); // Drop zone for Item types.
+            value.tile = DragAndDropUtilities.DragZone(rect, value.tile, true, true); // Enables dragging of the ItemSlot
+
+            if (value.isNotPopulated)
+            {
+                //Drop zone for modifier
+                value.modifier = DragAndDropUtilities.DropZone(rect, value.modifier);
+            }
 
             return value;
         }
@@ -53,24 +56,47 @@ namespace DashTerritory
         private LevelTileItem DrawTileGui(Rect rect, LevelTileItem value)
         {
             if (!EditorWindow.mouseOverWindow) return value;
-            
-            var gameManagerWindow = EditorWindow.GetWindow(typeof(GameManagerWindow)) as OdinMenuEditorWindow;
+
+            var gameManagerWindowInfo = GameManagerWindowInfo.Instance;
             var current = Mouse.current;
             var mousePosition = current.position.ReadValue();
             
-            if (gameManagerWindow != null)
+            if (gameManagerWindowInfo != null)
             {
-                mousePosition.x -= gameManagerWindow.MenuWidth;
-                mousePosition.y -= gameManagerWindow.MenuTree.Config.SearchToolbarHeight;
+                mousePosition.x -= gameManagerWindowInfo.MenuWidth;
+                mousePosition.y -= gameManagerWindowInfo.MenuSearchBarHeight - 5;
             }
 
+            //Draw modifiers buttons
+            var modifierRect = rect.AlignLeft(22).AlignTop(22);
+            if (value.modifier)
+            {
+                var isMouseOver = modifierRect.Contains(mousePosition);
+                if (isMouseOver)
+                {
+                    GUI.backgroundColor = Color.red;
+                    if (GUI.Button(modifierRect, "x"))
+                    {
+                        value.modifier = null;
+                    }
+                    GUI.backgroundColor = Color.white;
+                }
+                else
+                {
+                    GUI.Button(modifierRect, value.modifier.icon);
+                }
+            }
+            
             if (!rect.Contains(mousePosition)) return value;
             
+            //ToDo maybe switch to an x if a tile is present
             GUI.backgroundColor = value.isNotPopulated ? Color.green : Color.red;
             var deleteRect = rect.AlignRight(18).AlignBottom(18);
             if (GUI.Button(deleteRect, string.Format(value.isNotPopulated ? "+" : "-")))
             {
                 value.isNotPopulated = !value.isNotPopulated;
+                value.tile = null;
+                value.modifier = null;
             }
             
             return value;

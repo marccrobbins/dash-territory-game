@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using Framework;
 using Sirenix.OdinInspector;
 using UnityEngine;
@@ -16,6 +15,11 @@ namespace DashTerritory
         public TerritoryTile[,] grid;
 
         public float pulseDelay = 0.1f;
+
+        protected override IEnumerator WaitForDependencies()
+        {
+            yield return new WaitUntil(() => PlayerManager.Instance != null);
+        }
 
         #region Building
 
@@ -37,9 +41,9 @@ namespace DashTerritory
                     grid[x, y] = territoryTile;
 
                     var data = levelData.grid[x, y];
-                    if (data.environmentItem)
+                    if (data.tile)
                     {
-                        var tileObject = Instantiate(data.environmentItem.cellPrefab, territoryTile.container);
+                        var tileObject = Instantiate(data.tile.prefab, territoryTile.container);
                     }
                     
                     var position = new Vector3
