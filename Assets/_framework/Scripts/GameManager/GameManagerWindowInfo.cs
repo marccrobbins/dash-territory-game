@@ -17,6 +17,9 @@ namespace Framework.GameData
         }
 
         public GameDataManager[] gameDataManagers;
+        
+        public float MenuWidth { get; set;}
+        public float MenuSearchBarHeight { get; set; }
     }
 
     [System.Serializable]

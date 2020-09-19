@@ -27,6 +27,17 @@ namespace Framework.GameData
             windowInfo = GameManagerWindowInfo.Instance;
         }
 
+        protected override void OnGUI()
+        {
+            if (windowInfo && MenuTree != null)
+            {
+                windowInfo.MenuWidth = MenuWidth;
+                windowInfo.MenuSearchBarHeight = MenuTree.Config.SearchToolbarHeight;
+            }
+
+            base.OnGUI();
+        }
+
         //I'm building multiple trees depending on what "state" is selected
         protected override OdinMenuTree BuildMenuTree()
         {
@@ -38,23 +49,20 @@ namespace Framework.GameData
 
             //Make sure we always have data
             if (!windowInfo) Initialize();
-            
+
             foreach (var manager in windowInfo.gameDataManagers)
             {
                 if (manager == null) continue;
-                
+
                 tree.Add(manager.name, manager);
-                
+
                 //check if we need to add children to the tree
                 if (string.IsNullOrEmpty(manager.ChildrenDirectory)) continue;
                 tree.AddAllAssetsAtPath(manager.name, manager.ChildrenDirectory, manager.ChildType, true);
 
-                if (manager.IsDraggable)
-                {
-                    tree.EnumerateTree().Where(x => x.Value.GetType() == manager.ChildType).ForEach(AddDragHandles);
-                }
+                tree.EnumerateTree().Where(x => x.Value.GetType().IsSubclassOf(manager.ChildType)).ForEach(AddDragHandles);
             }
-            
+
             return tree;
         }
         

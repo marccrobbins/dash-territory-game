@@ -13,9 +13,16 @@ namespace DashTerritory
         [OnValueChanged("UpdateGrid")]
         public int height;
         public float tileSize = 2;
-        public EnvironmentItemData defaultTile;
+        public EnvironmentTile defaultTile;
 
         public LevelTileItem[,] grid;
+
+        private void OnEnable()
+        {
+#if UNITY_EDITOR
+            AssignDefaults();
+#endif
+        }
 
         #region Odin
 
@@ -28,12 +35,21 @@ namespace DashTerritory
             if (height < 0) height = 0;
 
             grid = new LevelTileItem[width, height];
+            AssignDefaults();
+        }
+
+        private void AssignDefaults()
+        {
+            if (grid == null) return;
             
             for (var x = 0; x < width; x++)
             {
                 for (var y = 0; y < height; y++)
                 {
-                    grid[x, y].environmentItem = defaultTile;
+                    var item = grid[x, y];
+                    if (item.tile == null) item.tile = defaultTile;
+                    //if (item.modifiers == null) item.modifiers = new Dictionary<string, EnvironmentModifier>();
+                    grid[x, y] = item;
                 }
             }
         }

@@ -20,11 +20,9 @@ namespace Framework.Pooling
         [TableList(AlwaysExpanded = true)]
         public PoolDataItem[] poolDataList;
         
-        public override ScriptableObject CreateNew()
-        {
-            return null;
-        }
-        
+        public override ScriptableObject CreateNew() { return null; }
+        public override void Delete(ScriptableObject obj) { }
+
         #region Odin
 
         [Button("Compile")]

@@ -103,9 +103,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2228437730277385063}
   - component: {fileID: 2228437730277385066}
+  - component: {fileID: 4667856608474175625}
   - component: {fileID: 2228437730277385062}
   - component: {fileID: 2228437730277385060}
-  - component: {fileID: 2709951293547334409}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -145,6 +145,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 2
+--- !u!114 &4667856608474175625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2228437730277385067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f9df72574d122049802cde17e35f858, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMovement: {fileID: 2228437730277385062}
 --- !u!114 &2228437730277385062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f67f3a39e0faea4081353989e385274, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerInput: {fileID: 2709951293547334409}
+  playerInput: {fileID: 0}
   collider: {fileID: 2228437730150526734}
   rigidbody: {fileID: 2228437730277385066}
   dashMeter: {fileID: 2228437730823292581}
@@ -184,69 +197,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 9
---- !u!114 &2709951293547334409
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2228437730277385067}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: b33501f580577b948a1011116e1ca63d,
-    type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 49e01106-f44f-454f-ab13-23a8b7c153ee
-    m_ActionName: Menu/Submit[/XInputControllerWindows/buttonSouth,/XInputControllerWindows/buttonSouth]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: f5b12324-14de-40db-b245-4af51151c627
-    m_ActionName: Menu/Back[/XInputControllerWindows/buttonEast,/XInputControllerWindows/buttonEast]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: fbdb53a4-0755-46d4-8062-27a8109f6d3c
-    m_ActionName: Menu/Selection[/XInputControllerWindows/dpad/up,/XInputControllerWindows/dpad/up,/XInputControllerWindows/dpad/down,/XInputControllerWindows/dpad/down,/XInputControllerWindows/dpad/left,/XInputControllerWindows/dpad/left,/XInputControllerWindows/dpad/right,/XInputControllerWindows/dpad/right,/XInputControllerWindows/leftStick/up,/XInputControllerWindows/leftStick/up,/XInputControllerWindows/leftStick/down,/XInputControllerWindows/leftStick/down,/XInputControllerWindows/leftStick/left,/XInputControllerWindows/leftStick/left,/XInputControllerWindows/leftStick/right,/XInputControllerWindows/leftStick/right]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 310806a7-bf15-4dcd-8dc4-d878d3d98166
-    m_ActionName: Menu/Start[/XInputControllerWindows/start,/XInputControllerWindows/start]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 58c3a63e-4ade-495d-bff8-5ff0af0b1e27
-    m_ActionName: Game/Movement[/XInputControllerWindows/leftStick/up,/XInputControllerWindows/leftStick/up,/XInputControllerWindows/leftStick/down,/XInputControllerWindows/leftStick/down,/XInputControllerWindows/leftStick/left,/XInputControllerWindows/leftStick/left,/XInputControllerWindows/leftStick/right,/XInputControllerWindows/leftStick/right]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 5404092b-5943-4a14-9497-af887d4754f1
-    m_ActionName: Game/Start[/XInputControllerWindows/start,/XInputControllerWindows/start]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: b7ad4a39-c7db-4910-b025-7121444c7b86
-    m_ActionName: Game/Jump[/XInputControllerWindows/buttonSouth,/XInputControllerWindows/buttonSouth]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 7aeaa257-e95f-4fbe-909a-01e5242fa7ae
-    m_ActionName: Game/Dash[/XInputControllerWindows/buttonWest,/XInputControllerWindows/buttonWest]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Game
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!1 &2228437730467462136
 GameObject:
   m_ObjectHideFlags: 0

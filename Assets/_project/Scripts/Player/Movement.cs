@@ -2,14 +2,12 @@
 using Framework.Pooling;
 using Framework.Pooling.Generated;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 namespace DashTerritory
 {
     public class Movement : MonoBehaviour
     {
         [Header("References")] 
-        public PlayerInput playerInput;
         public Collider collider;
         public Rigidbody rigidbody;
         public DashMeter dashMeter;
@@ -35,12 +33,12 @@ namespace DashTerritory
         private bool canGroundSmash;
         private bool isDashCooldown;
         private Coroutine groundSmashRoutine;
-        
-        private void Start()
+
+        public void Initialize(PlayerInputActions inputActions)
         {
-            InputManager.RegisterMovementAxis(playerInput, Move);
-            InputManager.RegisterDashButton(playerInput, DashButton);
-            InputManager.RegisterJumpButton(playerInput, JumpButton);
+            inputActions.OnMovementEvent += Move;
+            inputActions.OnDashEvent += DashButton;
+            inputActions.OnJumpEvent += JumpButton;
         }
 
         private void FixedUpdate()
@@ -138,13 +136,6 @@ namespace DashTerritory
             Jump(jumpForce * 0.4f);
             
             isDoingGroundSmash = false;
-        }
-        
-        private void OnDestroy()
-        {
-            InputManager.UnRegisterMovementAxis(playerInput, Move);
-            InputManager.UnRegisterDashButton(playerInput, DashButton);
-            InputManager.UnRegisterJumpButton(playerInput, JumpButton);
         }
     }
 }

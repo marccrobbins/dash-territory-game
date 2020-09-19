@@ -48,6 +48,8 @@ MonoBehaviour:
     scenePath: Assets/_project/Scenes/Builder.unity
     sceneName: Builder
   managers:
+  - {fileID: 6125083386936580743, guid: 32a66060382cdfb458026f4cf77054f8, type: 3}
   - {fileID: 4266797391095089168, guid: 45fd2611267dfa64783fb266bffdac55, type: 3}
   - {fileID: 2072332942239850027, guid: b1ea3b663468b7543926f84f97916a53, type: 3}
   - {fileID: 6436191396338176398, guid: 2b5d5a4b29225004481a2b8447d3bb3b, type: 3}
+  - {fileID: 4524959006842299926, guid: a5084458e0e7e5141b5b30e254ff8b7e, type: 3}

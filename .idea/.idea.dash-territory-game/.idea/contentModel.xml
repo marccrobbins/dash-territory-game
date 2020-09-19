@@ -50,9 +50,12 @@
           <e p="Scripts" t="Include">
             <e p="Data" t="Include">
               <e p="EnvironmentData" t="Include">
+                <e p="EnvironmentData.cs" t="Include" />
                 <e p="EnvironmentDataOverview.cs" t="Include" />
-                <e p="EnvironmentItemData.cs" t="Include" />
+                <e p="EnvironmentModifier.cs" t="Include" />
+                <e p="EnvironmentTile.cs" t="Include" />
               </e>
+              <e p="IDataDraggable.cs" t="Include" />
               <e p="LevelEditor" t="Include">
                 <e p="LevelBuilder.cs" t="Include" />
                 <e p="LevelData.cs" t="Include" />
@@ -61,17 +64,22 @@
                 <e p="LevelTileItem.cs" t="Include" />
               </e>
             </e>
+            <e p="GameManager.cs" t="Include" />
             <e p="Input" t="Include">
               <e p="GameInput.cs" t="Include" />
               <e p="InputManager.cs" t="Include" />
+              <e p="PlayerInputActions.cs" t="Include" />
               <e p="Tester.cs" t="Include" />
             </e>
             <e p="Player" t="Include">
               <e p="DashMeter.cs" t="Include" />
               <e p="Gravity.cs" t="Include" />
               <e p="Movement.cs" t="Include" />
+              <e p="Player.cs" t="Include" />
+              <e p="PlayerManager.cs" t="Include" />
             </e>
             <e p="SimpleCameraController.cs" t="Include" />
+            <e p="SpawnPoint.cs" t="Include" />
             <e p="Territory" t="Include">
               <e p="TerritoryManager.cs" t="Include" />
               <e p="TerritoryTile.cs" t="Include" />

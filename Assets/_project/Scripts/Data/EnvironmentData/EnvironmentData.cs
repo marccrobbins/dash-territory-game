@@ -1,12 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Sirenix.OdinInspector;
+﻿using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace DashTerritory
 {
-    public class EnvironmentItemData : ScriptableObject
+    public abstract class EnvironmentData : ScriptableObject, IDataDraggable
     {
+        public abstract string SubDirectory { get; }
+        
         [HorizontalGroup("Split", 55, LabelWidth = 75)]
         [HideLabel, PreviewField(55, ObjectFieldAlignment.Left)]
         public Texture icon;
@@ -15,6 +15,6 @@ namespace DashTerritory
         public string name;
 
         [VerticalGroup("Split/Meta")] 
-        public GameObject cellPrefab;
+        public GameObject prefab;
     }
 }

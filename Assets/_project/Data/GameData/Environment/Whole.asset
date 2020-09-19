@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 963184db88224ed4e9bb3c0fb19de273, type: 3}
-  m_Name: HalfBlock
+  m_Script: {fileID: 11500000, guid: ceb5290b2d3584c4b8756d0833e5a2ca, type: 3}
+  m_Name: Whole
   m_EditorClassIdentifier: 
-  icon: {fileID: 2800000, guid: 942e6a9b1c553fa47abf452b8e2d20b7, type: 3}
-  name: HalfBlock
-  cellPrefab: {fileID: 3066220304632136155, guid: a5179b8087727a546a4d9ec75c435034,
-    type: 3}
+  icon: {fileID: 2800000, guid: 14cd28d9980253d43bb3426a2631e9d0, type: 3}
+  name: Whole
+  prefab: {fileID: 8498353830925141994, guid: 114f8d86f7a2d9548bd57d05ac858ab3, type: 3}
