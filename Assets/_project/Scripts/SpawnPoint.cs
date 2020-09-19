@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,6 +7,13 @@ namespace DashTerritory
 {
     public class SpawnPoint : MonoBehaviour
     {
-        public Vector3 position => transform.position;
+        public Transform spawnPoint;
+        
+        public Vector3 spawnPosition => spawnPoint.position;
+
+        private void Start()
+        {
+            PlayerManager.Instance.RegisterSpawnPoint(this);
+        }
     }
 }

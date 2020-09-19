@@ -8,5 +8,6 @@ namespace Framework.Pooling.Generated
     {
         public const string BODYSLAMEFFECT = "BodySlamEffect";
         public const string DASHEFFECT = "DashEffect";
+        public const string DEATHEFFECT = "DeathEffect";
     }
 }

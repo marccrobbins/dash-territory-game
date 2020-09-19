@@ -44,6 +44,11 @@ namespace DashTerritory
                     if (data.tile)
                     {
                         var tileObject = Instantiate(data.tile.prefab, territoryTile.container);
+
+                        if (data.modifier)
+                        {
+                            Instantiate(data.modifier.prefab, territoryTile.container);
+                        }
                     }
                     
                     var position = new Vector3

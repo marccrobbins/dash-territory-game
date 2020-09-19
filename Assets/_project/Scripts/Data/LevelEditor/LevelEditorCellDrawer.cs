@@ -44,7 +44,7 @@ namespace DashTerritory
             value.tile = DragAndDropUtilities.DropZone(rect, value.tile); // Drop zone for Item types.
             value.tile = DragAndDropUtilities.DragZone(rect, value.tile, true, true); // Enables dragging of the ItemSlot
 
-            if (value.isNotPopulated)
+            if (!value.isNotPopulated)
             {
                 //Drop zone for modifier
                 value.modifier = DragAndDropUtilities.DropZone(rect, value.modifier);

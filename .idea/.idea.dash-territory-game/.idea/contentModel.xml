@@ -64,15 +64,18 @@
                 <e p="LevelTileItem.cs" t="Include" />
               </e>
             </e>
+            <e p="GameManager.cs" t="Include" />
             <e p="Input" t="Include">
               <e p="GameInput.cs" t="Include" />
               <e p="InputManager.cs" t="Include" />
+              <e p="PlayerInputActions.cs" t="Include" />
               <e p="Tester.cs" t="Include" />
             </e>
             <e p="Player" t="Include">
               <e p="DashMeter.cs" t="Include" />
               <e p="Gravity.cs" t="Include" />
               <e p="Movement.cs" t="Include" />
+              <e p="Player.cs" t="Include" />
               <e p="PlayerManager.cs" t="Include" />
             </e>
             <e p="SimpleCameraController.cs" t="Include" />
