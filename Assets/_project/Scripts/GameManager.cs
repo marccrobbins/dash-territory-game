@@ -1,18 +1,42 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
+using System.Collections;
 using Framework;
-using Framework.GameData;
 using Sirenix.OdinInspector;
-using UnityEngine;
 
 namespace DashTerritory
 {
     public class GameManager : Manager<GameManager>
     {
-        [Button]
-        private void StartGame()
+        public static event Action<GameState> OnGameStateChangeEvent;
+
+        private GameState state;
+        public GameState State
         {
+            get => state;
+            set
+            {
+                if (state == value) return;
+                state = value;
+                OnGameStateChangeEvent?.Invoke(state);
+            }
+        }
+
+        protected override IEnumerator InitializeManager()
+        {
+            State = GameState.Main;
+            return base.InitializeManager();
+        }
+
+        public void StartGame()
+        {
+            State = GameState.InGame;
             PlayerManager.Instance.SpawnPlayers();
         }
+    }
+
+    public enum GameState
+    {
+        Main,
+        InGame
     }
 }

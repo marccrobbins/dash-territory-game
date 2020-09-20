@@ -26,7 +26,7 @@ namespace DashTerritory
                     ""id"": ""49e01106-f44f-454f-ab13-23a8b7c153ee"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": ""Press(behavior=1)""
+                    ""interactions"": """"
                 },
                 {
                     ""name"": ""Back"",
