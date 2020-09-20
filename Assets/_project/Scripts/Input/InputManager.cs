@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Framework;
 using UnityEngine;
@@ -8,10 +9,15 @@ namespace DashTerritory
 {
     public class InputManager : Manager<InputManager>
     {
-        public const string LogPrefix = "INPUTMANAGER ::";
+        private const string LogPrefix = "INPUTMANAGER ::";
         
+        //Events
+        public static event Action<PlayerInputActions> OnPlayerJoined;
+        
+        //Private variables
         private Dictionary<PlayerInput, PlayerInputActions> playerInputActionsLookup;
 
+        //Properties
         public List<PlayerInputActions> PlayerInputObjects => playerInputActionsLookup.Values.ToList();
 
         public override void Initialize()
@@ -55,6 +61,8 @@ namespace DashTerritory
             
             playerInputActions.Initialize(playerInput);
             playerInputActionsLookup[playerInput] = playerInputActions;
+            
+            OnPlayerJoined?.Invoke(playerInputActions);
         }
         
         /// <summary>
