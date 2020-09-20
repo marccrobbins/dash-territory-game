@@ -35,6 +35,9 @@ namespace DashTerritory
         /// <param name="playerInput">PlayerInput component attached to a specific character</param>
         public void RegisterPlayer(PlayerInput playerInput)
         {
+            //Parent input under InputManager so it will persist across scenes
+            playerInput.transform.SetParent(transform);
+            
             var id = playerInput.user.id;
             Debug.Log($"{LogPrefix}Registering player with id {id}");
             if (playerInputActionsLookup.ContainsKey(playerInput))
