@@ -3,6 +3,7 @@ using System.Collections;
 using Framework;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
+using SceneManager = Framework.SceneManager;
 
 namespace DashTerritory
 {
@@ -81,10 +82,12 @@ namespace DashTerritory
                 case UIState.Closed:
                     SwitchPages(inGamePage);
                     State = UIState.InGame;
+                    InputManager.SetInputMap(InputMapType.Menu);
                     break;
                 case UIState.InGame:
                     SwitchPages(null);
                     State = UIState.Closed;
+                    InputManager.SetInputMap(InputMapType.Game);
                     break;
             }
         }
@@ -93,19 +96,21 @@ namespace DashTerritory
 
         public void LoadMain()
         {
-            SceneManager.LoadScene(mainLevel.SceneName);
+           SceneManager.Instance.Load(mainLevel);
+           SwitchPages(mainMenuPage);
+           InputManager.SetInputMap(InputMapType.Menu);
         }
 
         public void LoadCampaign()
         {
-            SceneManager.LoadScene(campaignLevel.SceneName);
-            GameManager.Instance.StartGame();
+            SceneManager.Instance.Load(campaignLevel);
+            SwitchPages(null);
         }
 
         public void LoadFreeForAll()
         {
-            SceneManager.LoadScene(freeForAllLevel.SceneName);
-            GameManager.Instance.StartGame();
+            SceneManager.Instance.Load(freeForAllLevel);
+            SwitchPages(null);
         }
 
         public void SwitchPages(Page nextPage)

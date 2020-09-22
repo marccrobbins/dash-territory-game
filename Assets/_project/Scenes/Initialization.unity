@@ -133,22 +133,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameInitializer
       objectReference: {fileID: 0}
-    - target: {fileID: 6412056718685456888, guid: 1389ba317098310489f5f2b568c08697,
-        type: 3}
-      propertyPath: firstScene.sceneAsset
-      value: 
-      objectReference: {fileID: 102900000, guid: fc3e82fdce5338f48b6c1bdf03d7b2c9,
-        type: 3}
-    - target: {fileID: 6412056718685456888, guid: 1389ba317098310489f5f2b568c08697,
-        type: 3}
-      propertyPath: firstScene.scenePath
-      value: Assets/_project/Scenes/MainMenu.unity
-      objectReference: {fileID: 0}
-    - target: {fileID: 6412056718685456888, guid: 1389ba317098310489f5f2b568c08697,
-        type: 3}
-      propertyPath: firstScene.sceneName
-      value: MainMenu
-      objectReference: {fileID: 0}
     - target: {fileID: 6412056718685456889, guid: 1389ba317098310489f5f2b568c08697,
         type: 3}
       propertyPath: m_LocalPosition.x

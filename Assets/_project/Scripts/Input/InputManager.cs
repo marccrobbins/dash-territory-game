@@ -32,7 +32,11 @@ namespace DashTerritory
         /// <param name="type"></param>
         public static void SetInputMap(InputMapType type)
         {
-            //instance.playerInput.SwitchCurrentActionMap(type.ToString());
+            foreach (var playerInput in Instance.playerInputActionsLookup.Keys)
+            {
+                if (!playerInput) continue;
+                playerInput.SwitchCurrentActionMap(type.ToString());
+            }
         }
 
         /// <summary>

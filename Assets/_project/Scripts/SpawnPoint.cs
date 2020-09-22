@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace DashTerritory
 {
@@ -11,9 +8,14 @@ namespace DashTerritory
         
         public Vector3 spawnPosition => spawnPoint.position;
 
-        private void Start()
+        private void Awake()
         {
             PlayerManager.Instance.RegisterSpawnPoint(this);
+        }
+
+        private void OnDestroy()
+        {
+            PlayerManager.Instance.UnregisterSpawnPoint(this);
         }
     }
 }

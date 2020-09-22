@@ -9,6 +9,8 @@ namespace DashTerritory
 {
     public class TerritoryManager : Manager<TerritoryManager>
     {
+        private const string LogPrefix = "TERRITORYMANAGER :: ";
+        
         //ToDo this will need to be different, not sure if there will be "level" loading or not
         public LevelData levelData;
         public GameObject territoryTilePrefab;
@@ -23,7 +25,7 @@ namespace DashTerritory
 
         #region Building
 
-        public void BuildTerritory(Transform parent)
+        public void BuildTerritory(Transform parent = null)
         {
             grid = new TerritoryTile[levelData.width, levelData.height];
             var size = levelData.tileSize;
@@ -68,6 +70,8 @@ namespace DashTerritory
                     FindNeighbours(territoryTile, x, y);
                 }
             }
+            
+            Debug.Log($"{LogPrefix}Territory built");
         }
 
         private void FindNeighbours(TerritoryTile current, int xIndex, int yIndex)

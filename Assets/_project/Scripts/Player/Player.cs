@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using Framework.Pooling;
 using Framework.Pooling.Generated;
@@ -25,6 +26,11 @@ namespace DashTerritory
         {
             PoolManager.Instance.Spawn(PoolNames.DEATHEFFECT, transform.position);
             PlayerManager.Instance.PlayerDied(this);
+        }
+
+        private void OnDestroy()
+        {
+            playerMovement.Uninitialize(inputActions);
         }
     }
 }
