@@ -41,6 +41,13 @@ namespace DashTerritory
             inputActions.OnJumpEvent += JumpButton;
         }
 
+        public void Uninitialize(PlayerInputActions inputActions)
+        {
+            inputActions.OnMovementEvent -= Move;
+            inputActions.OnDashEvent -= DashButton;
+            inputActions.OnJumpEvent -= JumpButton;
+        }
+
         private void FixedUpdate()
         {
             heading = axis;

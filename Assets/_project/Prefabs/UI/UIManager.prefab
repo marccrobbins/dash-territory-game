@@ -590,9 +590,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainLevel:
-    sceneAsset: {fileID: 0}
-    scenePath: 
-    sceneName: 
+    sceneAsset: {fileID: 102900000, guid: fc3e82fdce5338f48b6c1bdf03d7b2c9, type: 3}
+    scenePath: Assets/_project/Scenes/MainMenu.unity
+    sceneName: MainMenu
   campaignLevel:
     sceneAsset: {fileID: 102900000, guid: 79487a32845b5dc4d9f8388fa952a4b6, type: 3}
     scenePath: Assets/_project/Scenes/Builder.unity

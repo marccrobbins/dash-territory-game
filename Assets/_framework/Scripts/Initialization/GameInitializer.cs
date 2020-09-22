@@ -79,7 +79,8 @@ namespace Framework
             if (!string.IsNullOrEmpty(firstScene.SceneName) &&
                 !string.IsNullOrEmpty(firstScene.ScenePath))
             {
-                SceneManager.LoadScene(firstScene.SceneName);
+                //SceneManager.LoadScene(firstScene.SceneName);
+                SceneManager.Instance.Load(firstScene);
             }
         }
 

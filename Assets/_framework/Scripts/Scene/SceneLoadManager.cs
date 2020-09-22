@@ -3,8 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using SceneManager = UnityEngine.SceneManagement.SceneManager;
 
-namespace Framework
+namespace OldFramework
 {
     public class SceneLoadManager : MonoBehaviour
     {

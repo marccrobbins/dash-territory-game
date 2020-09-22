@@ -26,6 +26,12 @@ namespace DashTerritory
             spawnPoints.Add(spawn);
         }
 
+        public void UnregisterSpawnPoint(SpawnPoint spawn)
+        {
+            if (!spawnPoints.Contains(spawn)) return;
+            spawnPoints.Remove(spawn);
+        }
+
         public void SpawnPlayers()
         {
             Debug.Log($"{LogPrefix}Spawning players");

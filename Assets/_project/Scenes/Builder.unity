@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 645786682}
   - component: {fileID: 645786681}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: SceneController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -147,12 +147,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 645786680}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e06ce45ca43be2e4da7d23966c6c746a, type: 3}
+  m_Script: {fileID: 11500000, guid: 527d246079669df4da7fda3542367fdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelData: {fileID: 11400000, guid: 74c13e42b4fef9b40be6e1fddf5c3e42, type: 2}
-  territoryTilePrefab: {fileID: 8873799201473814885, guid: 8a32243f68e02564ca7dad91def7922c,
-    type: 3}
 --- !u!4 &645786682
 Transform:
   m_ObjectHideFlags: 0

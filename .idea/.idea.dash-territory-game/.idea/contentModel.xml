@@ -37,7 +37,10 @@
               <e p="SpawnTester.cs" t="Include" />
             </e>
             <e p="Scene" t="Include">
+              <e p="ISceneInitialization.cs" t="Include" />
+              <e p="SceneController.cs" t="Include" />
               <e p="SceneLoadManager.cs" t="Include" />
+              <e p="SceneManager.cs" t="Include" />
               <e p="SceneReference.cs" t="Include" />
             </e>
             <e p="ScriptableObjectCreator.cs" t="Include" />

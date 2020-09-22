@@ -44,11 +44,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firstScene:
-    sceneAsset: {fileID: 102900000, guid: 79487a32845b5dc4d9f8388fa952a4b6, type: 3}
-    scenePath: Assets/_project/Scenes/Builder.unity
-    sceneName: Builder
+    sceneAsset: {fileID: 102900000, guid: fc3e82fdce5338f48b6c1bdf03d7b2c9, type: 3}
+    scenePath: Assets/_project/Scenes/MainMenu.unity
+    sceneName: MainMenu
   managers:
   - {fileID: 6125083386936580743, guid: 32a66060382cdfb458026f4cf77054f8, type: 3}
+  - {fileID: 8954878488228997378, guid: 40e5b10545e7dbd4497330dfd93a5f73, type: 3}
   - {fileID: 539948589770628023, guid: ef5452944069d144cbee7b8367e8692c, type: 3}
   - {fileID: 4266797391095089168, guid: 45fd2611267dfa64783fb266bffdac55, type: 3}
   - {fileID: 2072332942239850027, guid: b1ea3b663468b7543926f84f97916a53, type: 3}
