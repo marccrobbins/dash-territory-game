@@ -10,6 +10,7 @@
           <e p="Scripts" t="Include">
             <e p="Extensions" t="Include">
               <e p="ArrayExtensions.cs" t="Include" />
+              <e p="ColorExtensions.cs" t="Include" />
               <e p="DictionaryExtensions.cs" t="Include" />
             </e>
             <e p="GameManager" t="Include">
@@ -84,6 +85,8 @@
             <e p="SimpleCameraController.cs" t="Include" />
             <e p="SpawnPoint.cs" t="Include" />
             <e p="Territory" t="Include">
+              <e p="IOwnership.cs" t="Include" />
+              <e p="Territory.cs" t="Include" />
               <e p="TerritoryManager.cs" t="Include" />
               <e p="TerritoryTile.cs" t="Include" />
             </e>

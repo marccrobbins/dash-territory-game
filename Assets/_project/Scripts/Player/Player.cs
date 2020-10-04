@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+using Framework;
 using Framework.Pooling;
 using Framework.Pooling.Generated;
 using Sirenix.OdinInspector;
@@ -14,11 +13,15 @@ namespace DashTerritory
         
         private PlayerInputActions inputActions;
 
+        public Color Representation { get; private set; }
+        
         public void Initialize(PlayerInputActions playerInputActions)
         {
             inputActions = playerInputActions;
             
             playerMovement.Initialize(inputActions);
+
+            Representation = Representation.RandomColor();
         }
 
         [Button]

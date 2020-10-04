@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
@@ -22,6 +23,11 @@ namespace DashTerritory
         {
             //Don't activate another pulse if one is still running
             animator.SetTrigger("Pulse");
+        }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            Debug.Log($"trigger enter with {other.name}");
         }
 
         private void OnDrawGizmosSelected()
