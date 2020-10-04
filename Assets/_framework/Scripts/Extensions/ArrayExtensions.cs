@@ -16,7 +16,9 @@ namespace Framework
             var results = new List<T>();
             for (var i = 0; i < array.GetLength(dimension); i++)
             {
-                results.Add(dimension == 0 ? array[i, index] : array[index, i]);
+                var element = dimension == 0 ? array[i, index] : array[index, i];
+                if (element == null) continue;
+                results.Add(element);
             }
 
             return results;

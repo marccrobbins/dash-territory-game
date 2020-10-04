@@ -13,21 +13,24 @@ namespace DashTerritory
         
         //ToDo this will need to be different, not sure if there will be "level" loading or not
         public LevelData levelData;
-        public GameObject territoryTilePrefab;
-        public TerritoryTile[,] grid;
+        public Territory[,] grid;
+
+        public Dictionary<Player, List<Territory>> territoryOwnershipLookup;
 
         public float pulseDelay = 0.1f;
 
         protected override IEnumerator WaitForDependencies()
         {
             yield return new WaitUntil(() => PlayerManager.Instance != null);
+            
+            territoryOwnershipLookup = new Dictionary<Player, List<Territory>>();
         }
 
         #region Building
 
         public void BuildTerritory(Transform parent = null)
         {
-            grid = new TerritoryTile[levelData.width, levelData.height];
+            grid = new Territory[levelData.width, levelData.height];
             var size = levelData.tileSize;
             var startingX = size * levelData.width * 0.5f - size * 0.5f;
             var startingY = size * levelData.height * 0.5f - size * 0.5f;
@@ -36,45 +39,38 @@ namespace DashTerritory
             {
                 for (var x = 0; x < levelData.width; x++)
                 {
-                    var newTile = Instantiate(territoryTilePrefab, parent);
-                    newTile.transform.localScale = Vector3.one * size;
-                    
-                    var territoryTile = newTile.GetComponent<TerritoryTile>();
-                    grid[x, y] = territoryTile;
-
                     var data = levelData.grid[x, y];
-                    if (data.tile)
-                    {
-                        var tileObject = Instantiate(data.tile.prefab, territoryTile.container);
-
-                        if (data.modifier)
-                        {
-                            Instantiate(data.modifier.prefab, territoryTile.container);
-                        }
-                    }
+                    if (!data.tile || data.isNotPopulated) continue;
+                    var tileObject = Instantiate(data.tile.prefab, parent);
+                    tileObject.transform.localScale = Vector3.one * size;
                     
+                    var territory = tileObject.GetComponent<Territory>();
+                    if (territory)
+                    {
+                        grid[x, y] = territory;
+                        FindNeighbours(territory, x, y);
+                    }
+
+                    if (data.modifier)
+                    {
+                        Instantiate(data.modifier.prefab, tileObject.transform);
+                    }
+
                     var position = new Vector3
                     {
                         x = -startingX + size * x,
                         z = startingY - size * y
                     };
 
-                    newTile.transform.position = position;
-                    newTile.name = $"TerritoryTile [{position}]";
-                    
-                    if (levelData.grid[x, y].isNotPopulated)
-                    {
-                        territoryTile.SetVisibility(false);
-                    }
-                    
-                    FindNeighbours(territoryTile, x, y);
+                    tileObject.transform.position = position;
+                    tileObject.name = $"TerritoryTile [{position}]";
                 }
             }
             
             Debug.Log($"{LogPrefix}Territory built");
         }
 
-        private void FindNeighbours(TerritoryTile current, int xIndex, int yIndex)
+        private void FindNeighbours(Territory current, int xIndex, int yIndex)
         {
             var canFindLeftCorner = xIndex > 0 && yIndex > 0;
             var canFindRightCorner = xIndex < levelData.width - 1 && yIndex > 0;
@@ -87,14 +83,16 @@ namespace DashTerritory
             if (canFindLeft) AddNeighbour(current, grid[xIndex - 1, yIndex], GridLocation.West);
         }
 
-        private void AddNeighbour(TerritoryTile current, TerritoryTile neighbour, GridLocation location)
+        private void AddNeighbour(Territory current, Territory neighbour, GridLocation location)
         {
+            if (!neighbour) return;
+            
             current.neighbours.Add(new Neighbour
             {
                 territory = neighbour,
                 location = location
             });
-            
+
             switch (location)
             {
                 case GridLocation.NorthWest:
@@ -143,21 +141,21 @@ namespace DashTerritory
             StartCoroutine(CenterPulseRoutine(sourceTerritory));
         }
 
-        private IEnumerator CenterPulseRoutine(TerritoryTile source)
+        private IEnumerator CenterPulseRoutine(Territory source)
         {
-            var collection = new Dictionary<int, List<TerritoryTile>>();
-            var found = new List<TerritoryTile>{source};
-            var last = new List<TerritoryTile>{source};
+            var collection = new Dictionary<int, List<Territory>>();
+            var found = new List<Territory>{source};
+            var last = new List<Territory>{source};
             
             do
             {
-                if (!collection.ContainsKey(collection.Count)) collection.Add(collection.Count, new List<TerritoryTile>());
+                if (!collection.ContainsKey(collection.Count)) collection.Add(collection.Count, new List<Territory>());
 
                 var currentIndex = collection.Count - 1;
                 
                 foreach (var lastTerritory in last)
                 {
-                    var results = new List<TerritoryTile>();
+                    var results = new List<Territory>();
                     foreach (var neighbour in lastTerritory.neighbours)
                     {
                         if (neighbour == null) continue;
@@ -181,7 +179,7 @@ namespace DashTerritory
         [Button]
         public void PulseFromLocation(GridLocation location)
         {
-            var collection = new Dictionary<int, List<TerritoryTile>>();
+            var collection = new Dictionary<int, List<Territory>>();
             switch (location)
             {
                 case GridLocation.North:
@@ -213,7 +211,7 @@ namespace DashTerritory
             StartCoroutine(PulseRoutine(collection));
         }
 
-        private IEnumerator PulseRoutine(Dictionary<int, List<TerritoryTile>> collection)
+        private IEnumerator PulseRoutine(Dictionary<int, List<Territory>> collection)
         {
             foreach (var elementLists in collection)
             {
@@ -232,16 +230,16 @@ namespace DashTerritory
     [Serializable]
     public class Neighbours
     {
-        public TerritoryTile northNeighbour;
-        public TerritoryTile eastNeighbour;
-        public TerritoryTile southNeighbour;
-        public TerritoryTile westNeighbour;
-        public TerritoryTile northEastNeighbour;
-        public TerritoryTile southEastNeighbour;
-        public TerritoryTile northWestNeighbour;
-        public TerritoryTile southWestNeighbour;
+        public Territory northNeighbour;
+        public Territory eastNeighbour;
+        public Territory southNeighbour;
+        public Territory westNeighbour;
+        public Territory northEastNeighbour;
+        public Territory southEastNeighbour;
+        public Territory northWestNeighbour;
+        public Territory southWestNeighbour;
         
-        public List<TerritoryTile> AllNeighbours => new List<TerritoryTile>
+        public List<Territory> AllNeighbours => new List<Territory>
         {
             northNeighbour, 
             eastNeighbour, 
@@ -253,7 +251,7 @@ namespace DashTerritory
             southWestNeighbour
         };
 
-        public TerritoryTile GetNeighbourByType(GridLocation location)
+        public Territory GetNeighbourByType(GridLocation location)
         {
             switch (location)
             {
@@ -282,7 +280,7 @@ namespace DashTerritory
     [Serializable]
     public class Neighbour
     {
-        public TerritoryTile territory;
+        public Territory territory;
         public GridLocation location;
     }
 
