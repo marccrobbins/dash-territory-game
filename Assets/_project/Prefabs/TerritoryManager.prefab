@@ -43,7 +43,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e082774741ff44b8aea85bda9b0c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelData: {fileID: 11400000, guid: 74c13e42b4fef9b40be6e1fddf5c3e42, type: 2}
-  territoryTilePrefab: {fileID: 8545955598320576733, guid: cff80adce74c2584698d93a72ccf405b,
-    type: 3}
+  levelData: {fileID: 11400000, guid: e0d600ccfa6edab479c4c89e332e8c8b, type: 2}
   pulseDelay: 0.1
