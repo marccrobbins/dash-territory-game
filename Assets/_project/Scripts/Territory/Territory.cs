@@ -11,22 +11,39 @@ namespace DashTerritory
         public List<Neighbour> neighbours = new List<Neighbour>();
         
         public Player Owner { get; private set; }
+        public bool IsOccupied { get; private set; }
 
         public void Pulse()
         {
         }
-        
-        private void OnTriggerEnter(Collider other)
+
+        private void OnTriggerStay(Collider other)
         {
             if (!other.CompareTag("Player")) return;
 
             var player = other.GetComponentInParent<Player>();
-            if (!player ||
+            if (!player) return;
+
+            if (IsOccupied||
                 !player.IsGrounded ||
-                player.playerDash.IsDashing) return;
+                player.playerDash.IsDashing) return; 
+            
+            IsOccupied = true;
+            
+            if (Owner == player) return;
 
             Owner = player;
             UpdateOwnership(player.Representation);
+        }
+
+        private void OnTriggerExit(Collider other)
+        {
+            if (!other.CompareTag("Player")) return;
+
+            var player = other.GetComponentInParent<Player>();
+            if (!player) return;
+
+            IsOccupied = false;
         }
 
         public void UpdateOwnership(Color color)
