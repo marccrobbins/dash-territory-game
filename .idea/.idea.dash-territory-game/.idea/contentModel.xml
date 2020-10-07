@@ -76,11 +76,13 @@
               <e p="Tester.cs" t="Include" />
             </e>
             <e p="Player" t="Include">
-              <e p="DashMeter.cs" t="Include" />
-              <e p="Gravity.cs" t="Include" />
-              <e p="Movement.cs" t="Include" />
+              <e p="GravityMultiplier.cs" t="Include" />
               <e p="Player.cs" t="Include" />
+              <e p="PlayerDash.cs" t="Include" />
+              <e p="PlayerJump.cs" t="Include" />
               <e p="PlayerManager.cs" t="Include" />
+              <e p="PlayerMovement.cs" t="Include" />
+              <e p="SpecialAbility.cs" t="Include" />
             </e>
             <e p="SimpleCameraController.cs" t="Include" />
             <e p="SpawnPoint.cs" t="Include" />

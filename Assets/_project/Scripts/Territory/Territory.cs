@@ -23,6 +23,8 @@ namespace DashTerritory
             var player = other.GetComponentInParent<Player>();
             if (!player) return;
 
+            
+            
             Owner = player;
             UpdateOwnership(player.Representation);
         }

@@ -3,7 +3,7 @@
 namespace DashTerritory
 {
     [RequireComponent(typeof(Rigidbody))]
-    public class Gravity : MonoBehaviour
+    public class GravityMultiplier : MonoBehaviour
     {
         public float gravityScale = 1;
 
