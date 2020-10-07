@@ -7,7 +7,8 @@ namespace DashTerritory
 {
     public class PlayerDash : MonoBehaviour
     {
-        public float dashForce = 2;
+        public float dashDuration = 0.2f;
+        public float dashDistance = 5;
         public float dashCooldown = 1;
 
         [Header("UI")]
@@ -17,7 +18,8 @@ namespace DashTerritory
         private Player player;
         private bool isDashCooldown;
         private Transform cameraTransform;
-        private Coroutine fillRoutine;
+        
+        public bool IsDashing { get; private set; }
         
         public void Initialize(Player player)
         {
@@ -55,22 +57,42 @@ namespace DashTerritory
 
         private void DashButton()
         {
-            if (isDashCooldown) return;
+            if (IsDashing ||
+                isDashCooldown) return;
             
             PoolManager.Instance.Spawn(PoolNames.DASHEFFECT, transform.position, transform.rotation, Vector3.one * 2, transform);
-            player.rigidbody.AddForce(transform.forward * dashForce, ForceMode.Impulse);
-            
-            if (fillRoutine != null) StopCoroutine(fillRoutine);
-            fillRoutine = StartCoroutine(FillRoutine());
-        }
-        
-        private IEnumerator FillRoutine()
-        {
-            isDashCooldown = true;
-            cooldownBar.SetActive(true);
 
+            StartCoroutine(DashRoutine());
+        }
+
+        //Todo Calculate dash target position, check if going to hit a wall and dash to just before it
+        //Todo only check against walls and geo, ignore players during check...https://www.youtube.com/watch?v=-_QIF1-x6XI&feature=emb_title...reference
+        private IEnumerator DashRoutine()
+        {
+            IsDashing = true;
+            
+            var dashTarget = transform.forward * dashDistance;
             var timePassed = 0f;
             var fixedUpdateInstruction = new WaitForFixedUpdate();
+            while (timePassed < dashDuration)
+            {
+                timePassed += Time.deltaTime;
+
+                var startPosition = transform.position;
+                var result = startPosition + timePassed / dashDuration * dashTarget;
+                result.y = startPosition.y;
+                transform.position = result;
+                
+                yield return fixedUpdateInstruction;
+            }
+
+            IsDashing = false;
+            
+            //Do cooldown
+            isDashCooldown = true;
+            cooldownBar.SetActive(true);
+            
+            timePassed = 0f;
             while (timePassed < dashCooldown)
             {
                 timePassed += Time.deltaTime;
@@ -82,9 +104,8 @@ namespace DashTerritory
                 
                 yield return fixedUpdateInstruction;
             }
-
-            isDashCooldown = false;
             
+            isDashCooldown = false;
             cooldownBar.SetActive(false);
         }
     }

@@ -195,7 +195,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c78b1f5c4be25a448aa51fb7585bfba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dashForce: 8
+  dashDuration: 0.15
+  dashDistance: 2.5
   dashCooldown: 1
   cooldownBar: {fileID: 2228437730823292583}
   scaler: {fileID: 2228437730467462135}

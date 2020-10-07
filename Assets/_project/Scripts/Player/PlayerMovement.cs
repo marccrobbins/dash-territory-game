@@ -26,6 +26,8 @@ namespace DashTerritory
 
         private void FixedUpdate()
         {
+            if (player.playerDash.IsDashing) return;
+            
             heading = axis;
 
             //Apply speed

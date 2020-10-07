@@ -21,10 +21,10 @@ namespace DashTerritory
             if (!other.CompareTag("Player")) return;
 
             var player = other.GetComponentInParent<Player>();
-            if (!player) return;
+            if (!player ||
+                !player.IsGrounded ||
+                player.playerDash.IsDashing) return;
 
-            
-            
             Owner = player;
             UpdateOwnership(player.Representation);
         }
