@@ -52,6 +52,9 @@
         </e>
         <e p="_project" t="Include">
           <e p="Scripts" t="Include">
+            <e p="Camera" t="Include">
+              <e p="CameraManager.cs" t="Include" />
+            </e>
             <e p="Data" t="Include">
               <e p="EnvironmentData" t="Include">
                 <e p="EnvironmentData.cs" t="Include" />
